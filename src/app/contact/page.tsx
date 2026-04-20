@@ -8,14 +8,14 @@ export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Buggy Dubai Rental — Book Your Desert Adventure',
-  description: 'Contact Buggy Dubai Rental. Book dune buggy tours, quad bike rides & desert safaris in Dubai. WhatsApp: +971 58 507 2674. Open 24/7. Palm Jumeirah, Dubai, UAE.',
+  description: 'Contact Buggy Dubai Rental. Book dune buggy tours, quad bike rides & desert safaris in Dubai. WhatsApp: +971 58 595 3195. Open 24/7. Palm Jumeirah, Dubai, UAE.',
   alternates: { canonical: `${SITE.url}/contact` },
 };
 
 const contactItems = [
   { icon: '📍', label: 'Office Location', value: '446W+88X Palm Jumeirah, Dubai, UAE', href: undefined },
-  { icon: '📱', label: 'WhatsApp & Phone', value: '+971 58 507 2674', href: 'tel:+971585953195' },
-  { icon: '✉️', label: 'Email', value: 'info@buggydubairental.com', href: 'mailto:info@buggydubairental.com' },
+  { icon: '📱', label: 'WhatsApp & Phone', value: '+971 58 595 3195', href: 'tel:+971585953195' },
+  { icon: '✉️', label: 'Email', value: 'info@dunebuggydubai.online', href: 'mailto:info@dunebuggydubai.online' },
   { icon: '🌐', label: 'Website', value: 'buggydubairental.com', href: 'https://buggydubairental.com' },
   { icon: '🕐', label: 'Operating Hours', value: '24/7 — Monday to Sunday', href: undefined },
 ];
