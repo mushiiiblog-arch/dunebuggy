@@ -1,5 +1,5 @@
 {
-  "name": "dunebuggy",
+  "name": "buggy-dubai-rental",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -23,6 +23,4 @@
     "@types/react": "^18.3.0",
     "typescript": "^5.0.0"
   }
-
 }
-

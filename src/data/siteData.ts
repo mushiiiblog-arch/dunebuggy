@@ -555,11 +555,7 @@ export const FAQS = [
   },
   {
     q: 'What should I wear for the tour?',
-<<<<<<< HEAD
-    a: 'Wear comfortable, casual clothing that you don't mind getting dusty. Closed-toe shoes are mandatory. Sunglasses, sunscreen, and a light jacket for evening tours are recommended.',
-=======
     a: 'Wear comfortable, casual clothing that you do not mind getting dusty. Closed-toe shoes are mandatory. Sunglasses, sunscreen, and a light jacket for evening tours are recommended.',
->>>>>>> 353ffb6cd60e9815d1ae8bb0c96842765406efd2
   },
   {
     q: 'Is hotel pickup included?',
