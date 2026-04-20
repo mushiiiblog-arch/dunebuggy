@@ -6,7 +6,7 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Can-Am Maverick R X RS '26 | Dune Buggy Dubai Tour | Buggy Dubai Rental',
+  title: "Can-Am Maverick R X RS '26 | Dune Buggy Dubai Tour | Buggy Dubai Rental",
   description: 'Experience raw power with the 2026 Can-Am Maverick R X RS featuring Smart-Shox suspension technology. Book now for AED 999. Professional guides, safety gear included.',
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/can-am-maverick-r-x-rs-26` },
 };
