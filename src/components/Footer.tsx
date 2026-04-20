@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { SITE, SERVICES } from '@/data/siteData';
+import { SITE } from '@/data/siteData';
 
 const quickLinks = [
   { label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' },

@@ -136,6 +136,9 @@ function TourPackages() {
     sunrise: 'bg-amber-400 text-brand-dark',
     night: 'bg-indigo-600 text-white',
     sunset: 'bg-gradient-to-r from-orange-500 to-rose-500 text-white',
+    blue: 'bg-blue-600 text-white',
+    teal: 'bg-teal-500 text-white',
+    red: 'bg-red-500 text-white',
   };
 
   return (
@@ -183,7 +186,7 @@ function TourPackages() {
                   <div className="flex flex-wrap gap-2 mb-3">
                     <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-50 rounded-full px-2.5 py-1">
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                      {tour.durationShort}
+                      {tour.duration}
                     </span>
                     <span className="inline-flex items-center gap-1 text-xs text-gray-500 bg-gray-50 rounded-full px-2.5 py-1">
                       <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>

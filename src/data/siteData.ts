@@ -534,10 +534,10 @@ export const INCLUSIONS = [
 ];
 
 export const ADD_ONS = [
-  { name: 'BBQ Dinner', price: 'AED 99', desc: 'Traditional Arabian BBQ buffet at desert camp' },
-  { name: 'Quad Bike 30min', price: 'AED 149', desc: 'Add a 30-minute quad bike ride to any tour' },
-  { name: 'Professional Photos', price: 'AED 199', desc: 'Professional photographer captures your adventure' },
-  { name: 'Private Guide', price: 'AED 299', desc: 'Dedicated private guide for your group only' },
+  { title: 'BBQ Dinner', price: 'AED 99', desc: 'Traditional Arabian BBQ buffet at desert camp' },
+  { title: 'Quad Bike 30min', price: 'AED 149', desc: 'Add a 30-minute quad bike ride to any tour' },
+  { title: 'Professional Photos', price: 'AED 199', desc: 'Professional photographer captures your adventure' },
+  { title: 'Private Guide', price: 'AED 299', desc: 'Dedicated private guide for your group only' },
 ];
 
 // ========================================
@@ -577,21 +577,30 @@ export const FAQS = [
 
 export const SERVICES = [
   {
-    icon: '🏜️',
+    slug: 'dune-buggy-dubai',
+    icon: 'Truck',
     title: 'Dune Buggy Tours',
-    desc: 'Self-drive Can-Am Maverick & Polaris RZR experiences',
+    subtitle: 'Self-Drive Desert Adventure',
+    desc: 'Self-drive Can-Am Maverick & Polaris RZR experiences across the iconic Al Badayer Red Dunes.',
+    price: 'From AED 399',
     link: '/dune-buggy-dubai',
   },
   {
-    icon: '🏍️',
+    slug: 'quad-bike-dubai',
+    icon: 'Bike',
     title: 'Quad Bike Tours',
-    desc: 'High-performance ATV adventures across red dunes',
+    subtitle: 'High-Performance ATV Rides',
+    desc: 'High-performance Yamaha Raptor ATV adventures across Dubai\'s towering red sand dunes.',
+    price: 'From AED 150',
     link: '/quad-bike-dubai',
   },
   {
-    icon: '🌅',
+    slug: 'desert-safari-dubai',
+    icon: 'Tent',
     title: 'Desert Safaris',
-    desc: 'Complete 4x4 safari experiences with BBQ dinner',
+    subtitle: 'Complete Arabian Experience',
+    desc: 'Complete 4x4 safari experiences with BBQ dinner, live shows, camel rides, and sandboarding.',
+    price: 'From AED 150',
     link: '/desert-safari-dubai',
   },
 ];
@@ -614,13 +623,53 @@ export const GALLERY_IMAGES = [
 // NAVIGATION
 // ========================================
 
-export const NAV_LINKS = [
-  { label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' },
-  { label: 'Quad Bike Dubai', href: '/quad-bike-dubai' },
-  { label: 'Desert Safari', href: '/desert-safari-dubai' },
+export const NAV_ITEMS = [
+  {
+    label: 'Dune Buggy Dubai',
+    href: '/dune-buggy-dubai',
+    children: [
+      { label: 'Can-Am Maverick R X RS \'26', href: '/dune-buggy-dubai/can-am-maverick-r-x-rs-26' },
+      { label: 'Can-Am Maverick XRS 26', href: '/dune-buggy-dubai/can-am-maverick-xrs-26' },
+      { label: 'Stage 4 Stunner: RZR PRO R', href: '/dune-buggy-dubai/stage-4-stunner-rzr-pro-r-ultimate' },
+      { label: 'Desert Combo: Safari + Buggy', href: '/dune-buggy-dubai/desert-combo-sharing-safari-dune-buggy' },
+      { label: 'Early Bird Buggy Tour', href: '/dune-buggy-dubai/early-bird-buggy-tour' },
+      { label: 'Night Riders', href: '/dune-buggy-dubai/night-riders-dune-buggy-dubai' },
+      { label: 'Red Dunes Afternoon', href: '/dune-buggy-dubai/red-dunes-afternoon-buggies' },
+      { label: 'Morning Dune Buggy Tour', href: '/dune-buggy-dubai/morning-dune-buggy-tour' },
+      { label: 'Polaris RZR 1,2,4 Seater', href: '/dune-buggy-dubai/polaris-rzr-1-2-4-seater' },
+    ],
+  },
+  {
+    label: 'Quad Bike Dubai',
+    href: '/quad-bike-dubai',
+    children: [
+      { label: 'Yamaha 700cc Raptor', href: '/quad-bike-dubai/yamaha-700cc-raptor' },
+      { label: 'Desert Combo: Safari + Quad', href: '/quad-bike-dubai/desert-combo-safari-quad' },
+      { label: 'Early Bird Quad (1-Seater)', href: '/quad-bike-dubai/early-bird-quad-1-seater' },
+      { label: 'Early Bird Quad (2-Seater)', href: '/quad-bike-dubai/early-bird-quad-2-seater' },
+      { label: 'Afternoon Quad (1-Seater)', href: '/quad-bike-dubai/afternoon-quad-1-seater' },
+      { label: 'Afternoon Quad (2-Seater)', href: '/quad-bike-dubai/afternoon-quad-2-seater' },
+      { label: 'Red Dunes Quad + Transfer (1)', href: '/quad-bike-dubai/red-dunes-quad-transfer-1-seater' },
+      { label: 'Red Dunes Quad + Transfer (2)', href: '/quad-bike-dubai/red-dunes-quad-transfer-2-seater' },
+      { label: 'Yamaha Raptor + Transfer', href: '/quad-bike-dubai/yamaha-raptor-transfer' },
+    ],
+  },
+  {
+    label: 'Desert Safari',
+    href: '/desert-safari-dubai',
+    children: [
+      { label: 'Shared Evening Safari', href: '/desert-safari-dubai/shared-evening-safari' },
+      { label: 'Private Evening Safari', href: '/desert-safari-dubai/private-evening-safari' },
+      { label: 'Shared Luxury Safari', href: '/desert-safari-dubai/shared-luxury-safari' },
+      { label: 'Private Luxury Safari', href: '/desert-safari-dubai/private-luxury-safari' },
+    ],
+  },
   { label: 'Prices', href: '/prices' },
   { label: 'How to Book', href: '/how-to-book' },
   { label: 'About', href: '/about' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Contact', href: '/contact' },
 ];
+
+// Backward compatibility
+export const NAV_LINKS = NAV_ITEMS;
