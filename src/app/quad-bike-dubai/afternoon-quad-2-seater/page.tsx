@@ -1,79 +1,96 @@
 import type { Metadata } from 'next';
 import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
+
 export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
-  title: "Afternoon Quad Bike Tour (2-Seater) | Quad Bike Dubai | Buggy Dubai Rental",
-  description: "Share the golden-hour adventure — a 2-seater afternoon quad ride with breathtaking desert sunset views for couples and friends at AED 200. AED 200. Safety gear included. Book via WhatsApp.",
+  title: "Afternoon Quad Bike 2-Seater Dubai | AED 200 | Couples Sunset",
+  description: "Share the golden-hour quad adventure \u2014 2-seater afternoon ride with breathtaking desert sunset views. AED 200.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/afternoon-quad-2-seater` },
 };
+
 export default function Page() {
   return (
     <TourPageLayout
       name="Afternoon Quad Bike Tour (2-Seater)"
-      breadcrumbParent={{ label: 'Quad Bike Dubai', href: '/quad-bike-dubai' }}
-      tagline="Share the golden-hour adventure — a 2-seater afternoon quad ride with breathtaking desert sunset views for couples and friends at AED 200."
+      breadcrumbParent={{ label: "Quad Bike Dubai", href: "/quad-bike-dubai" }}
+      tagline="Share the golden-hour adventure \u2014 a 2-seater afternoon quad ride with breathtaking desert sunset views."
       price="AED 200"
       duration="60 Minutes"
       seater="2-Seater"
       persons="2 Persons"
       difficulty="All Levels"
       heroImage="/images/quad/afternoon-quad-card.webp"
-      galleryImages={['/images/quad/afternoon-quad-gallery-1.webp', '/images/quad/afternoon-quad-gallery-2.webp', '/images/quad/afternoon-quad-gallery-3.webp', '/images/quad/afternoon-quad-gallery-4.webp']}
+      galleryImages={[
+        "/images/quad/afternoon-quad-card.webp",
+        "/images/quad/afternoon-quad-gallery-1.webp",
+        "/images/quad/afternoon-quad-gallery-2.webp",
+        "/images/quad/afternoon-quad-gallery-3.webp",
+        "/images/quad/afternoon-quad-gallery-4.webp"
+      ]}
       highlights={[
-        'Self-drive a high-performance quad bike across the iconic Al Badayer Red Dunes of Dubai',
-        '2-Seater ATV configuration — 2 Persons adventure across the crimson desert landscape',
-        'Yamaha and specialist ATVs with automatic or semi-automatic transmission for all skill levels',
-        'Licensed desert guides lead small groups ensuring maximum safety and excitement',
-        'Includes refreshments and scenic photo stops at panoramic desert viewpoints',
-        'Easy WhatsApp booking with no advance payment — pay at the desert camp',
+        "2-seater ATV perfect for couples and friends",
+        "Golden-hour sunset timing for spectacular photography",
+        "60-minute desert adventure",
+        "AED 100 per person when shared",
+        "Romantic and memorable shared experience",
+        "All safety gear and guide included"
       ]}
       overview={[
-        'The Afternoon 2-Seater Quad Bike Tour combines the beauty of the golden-hour desert with the joy of a shared adventure. Couples and friends ride together on a 2-seater ATV as the afternoon sun paints the Al Badayer dunes in shades of amber, crimson, and rose gold. It is one of the most romantic and visually spectacular experiences available in Dubai.',
-        'At AED 200 per vehicle — AED 100 per person when shared — this tour offers exceptional value for a premium experience. The 2-seater ATV is intuitive to operate with automatic transmission, and the comprehensive pre-tour briefing from our guides ensures both riders feel completely confident before setting off across the dunes.',
-        'As with all our tours, the experience extends beyond just the ride. Complimentary refreshments at the desert camp, scenic photography stops across the most photogenic dune formations in the Al Badayer region, and the guidance of experienced desert professionals ensure your quad bike adventure is a complete experience from start to finish.',
+        "The Afternoon 2-Seater Quad Bike Tour combines the beauty of the golden-hour desert with the joy of a shared adventure.",
+        "Couples and friends ride together on a 2-seater ATV as the afternoon sun paints the Al Badayer dunes in amber, crimson, and rose gold tones.",
+        "At AED 200 per vehicle, this tour offers exceptional value for a premium shared experience."
       ]}
       inclusions={[
-        '60-minute quad bike ride',
-        'Certified helmet and goggles',
-        'Licensed desert guide',
-        'Safety briefing and vehicle orientation',
-        'Complimentary water and soft drinks',
-        'Scenic photo stops',
-        'Backup safety vehicle',
-        'Full insurance coverage',
+        "60-minute guided desert ride",
+        "Certified helmet and protective goggles",
+        "Licensed desert guide throughout the tour",
+        "Comprehensive safety briefing and vehicle orientation",
+        "Sandboarding equipment and instruction",
+        "Traditional camel ride at the desert camp",
+        "Complimentary water and soft drinks",
+        "Scenic photo stops at panoramic desert viewpoints",
+        "Backup support vehicle for safety",
+        "Full insurance coverage"
       ]}
       exclusions={[
-        'Hotel pickup (available for AED 300 per person)',
-        'BBQ dinner (optional add-on)',
-        'Personal expenses',
-        'Professional photography (optional add-on)',
+        "Hotel pickup/drop-off (available AED 300 per person)",
+        "BBQ dinner (optional add-on)",
+        "Personal expenses and souvenirs",
+        "Professional photography service (optional add-on)"
       ]}
       importantInfo={[
-        'Minimum rider age: 16 years.',
-        'Not suitable for pregnant women or those with serious back or heart conditions.',
-        'Closed-toe shoes are mandatory.',
-        'Arrive 15 minutes before departure.',
-        'Tours operate in most weather conditions — severe weather may result in free reschedule.',
+        "Minimum driver age is 16 years.",
+        "No driving licence required.",
+        "Not recommended for pregnant women or guests with serious back/heart conditions.",
+        "Closed-toe shoes are mandatory.",
+        "Tours run in most weather conditions."
       ]}
       whyChoose={[
-        { title: 'Authentic Desert Experience', desc: 'The Al Badayer Red Dunes offer one of the most spectacular desert landscapes in the world. Our carefully planned routes showcase the very best of this iconic terrain.' },
-        { title: 'Professional Safety Standards', desc: 'All equipment is certified, all guides are licensed and first-aid trained, and every tour includes a backup safety vehicle. Your safety is our absolute priority.' },
-        { title: 'No Advance Payment', desc: 'Reserve your slot with a WhatsApp message. Zero payment upfront — pay cash or card at the desert camp before the tour starts.' },
-        { title: 'Flexible Booking', desc: 'Morning, afternoon, and evening departures available. Change your booking up to 24 hours before with no penalty.' },
+        { title: "Latest Fleet", desc: "All vehicles are recent-model, professionally maintained with certified safety equipment." },
+        { title: "Expert Guides", desc: "Licensed, first-aid certified desert guides with deep knowledge of the Al Badayer region." },
+        { title: "No Advance Payment", desc: "Reserve via WhatsApp with no upfront payment. Pay cash or card at the desert camp." },
+        { title: "Flexible Booking", desc: "Morning, afternoon, and evening departures. Change your booking up to 24 hours before." }
       ]}
-      perfectFor={['Solo Riders', 'Couples', 'Friend Groups', 'Adventure Seekers', 'Photography Enthusiasts', 'Dubai Visitors', 'UAE Residents']}
+      perfectFor={[
+        "Couples",
+        "Honeymooners",
+        "Romantic Getaways",
+        "Friends (2)"
+      ]}
       faqs={[
-        { q: 'Do I need experience to ride a quad bike?', a: 'No prior experience is needed. Our ATVs are easy to operate and our guides provide thorough instruction before the tour begins.' },
-        { q: 'What should I wear?', a: 'Comfortable, casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended. Light jacket for cooler departures.' },
-        { q: 'How do I get to the desert?', a: 'Shared hotel transfer available for AED 300 per person. Or drive yourself — we send GPS coordinates on booking confirmation.' },
-        { q: 'Can I bring a camera?', a: 'Yes — cameras and GoPros are welcome. Ensure all devices are securely mounted before riding. Multiple photo stops included.' },
-        { q: 'What is the cancellation policy?', a: 'Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded.' },
+        { q: "Do I need a driving licence?", a: "No driving licence is required. Our buggies are fully automatic with comprehensive safety briefing." },
+        { q: "What is the minimum age?", a: "Drivers must be 16+ years old. Passengers of any age welcome with adult supervision." },
+        { q: "What should I wear?", a: "Comfortable casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended." },
+        { q: "Is hotel pickup included?", a: "Shared hotel transfer is available for AED 300 per person from anywhere in Dubai." },
+        { q: "What is the cancellation policy?", a: "Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded." },
+        { q: "Can I bring a camera?", a: "Yes, cameras and GoPros are welcome. Secure all devices before riding. Multiple photo stops included." }
       ]}
       relatedTours={[
-        { name: 'Afternoon Quad 1-Seater', href: '/quad-bike-dubai/afternoon-quad-1-seater', price: 'AED 150', image: '/images/quad/afternoon-quad-card.webp' },
-        { name: 'Early Bird Quad 2-Seater', href: '/quad-bike-dubai/early-bird-quad-2-seater', price: 'AED 200', image: '/images/quad/early-bird-quad-card.webp' },
-        { name: 'Red Dunes Quad + Transfer 2-Seater', href: '/quad-bike-dubai/red-dunes-quad-transfer-2-seater', price: 'AED 300', image: '/images/red-dunes-quad-card.webp' },
+        { name: "Afternoon Quad 1-Seater", href: "/quad-bike-dubai/afternoon-quad-1-seater", price: "AED 150", image: "/images/quad/afternoon-quad-card.webp" },
+        { name: "Early Bird Quad 2-Seater", href: "/quad-bike-dubai/early-bird-quad-2-seater", price: "AED 200", image: "/images/quad/early-bird-quad-card.webp" },
+        { name: "Red Dunes Quad 2-Seater", href: "/quad-bike-dubai/red-dunes-quad-transfer-2-seater", price: "AED 300", image: "/images/quad/red-dunes-quad-card.webp" }
       ]}
       partnerAnchor="desert quad bike experience"
     />

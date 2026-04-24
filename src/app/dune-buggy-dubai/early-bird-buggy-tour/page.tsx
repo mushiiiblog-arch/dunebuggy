@@ -1,81 +1,98 @@
 import type { Metadata } from 'next';
 import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
+
 export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
   title: "Early Bird Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental",
-  description: "Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views. AED 500 per buggy. All safety gear included. Book via WhatsApp.",
+  description: "Sunrise desert adventure \u2014 experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views. AED 500 per buggy.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/early-bird-buggy-tour` },
 };
+
 export default function Page() {
   return (
     <TourPageLayout
-      name=\"Early Bird Buggy Tour\"
+      name="Early Bird Buggy Tour"
       breadcrumbParent={{ label: "Dune Buggy Dubai", href: "/dune-buggy-dubai" }}
-      tagline=\"Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views.\"
-      price=\"AED 500\"
-      duration=\"60 Minutes\"
-      seater=\"1, 2 & 4 Seater\"
-      persons=\"1–4 Persons\"
-      difficulty=\"All Levels\"
-      heroImage=\"/images/tours/early-bird-card.webp\"
-      galleryImages={["/images/tours/early-bird-card.webp','/images/tours/early-bird-gallery-1.webp','/images/tours/early-bird-gallery-2.webp','/images/tours/early-bird-gallery-3.webp','/images/tours/early-bird-gallery-4.webp']}
+      tagline="Sunrise desert adventure \u2014 experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views."
+      price="AED 500"
+      duration="60 Minutes"
+      seater="1, 2 & 4 Seater"
+      persons="1-4 Persons"
+      difficulty="All Levels"
+      heroImage="/images/tours/early-bird-card.webp"
+      galleryImages={[
+        "/images/tours/early-bird-card.webp",
+        "/images/tours/early-bird-gallery-1.webp",
+        "/images/tours/early-bird-gallery-2.webp",
+        "/images/tours/early-bird-gallery-3.webp",
+        "/images/tours/early-bird-gallery-4.webp"
+      ]}
       highlights={[
-        'Self-drive a high-performance dune buggy across Dubai\'s iconic Al Badayer Red Dunes',
-        'Available in 1-seater, 2-seater, and 4-seater configurations to suit any group size',
-        'Fully automatic transmission — no driving licence required, perfect for all skill levels',
-        'Morning departure for the best desert lighting and temperatures',
-        'Includes sandboarding, camel ride, refreshments, and multiple scenic photo stops',
-        'Licensed desert guides ensure safety while maximising the thrill of your adventure',
+        "Self-drive a high-performance dune buggy across Dubai's iconic Al Badayer Red Dunes",
+        "Morning departure for the coolest temperatures and most dramatic sunrise light",
+        "Available in 1-seater, 2-seater, and 4-seater configurations",
+        "Fully automatic transmission \u2014 no driving licence required",
+        "Includes sandboarding, camel ride, refreshments, and scenic photo stops",
+        "Licensed desert guides ensure maximum safety and enjoyment"
       ]}
       overview={[
-        'Early Bird Buggy Tour is one of the most popular dune buggy experiences in Dubai, offering the perfect combination of accessibility, excitement, and desert beauty. Departing at Morning time, guests benefit from ideal conditions across the stunning Al Badayer landscape — a region of towering red sand dunes located just 50 kilometres from Dubai city centre.',
-        'The route takes you through open desert flats for exhilarating speed runs, then up and over towering dune faces for heart-pounding descents. Your licensed guide leads a small convoy, ensuring every guest feels confident while experiencing genuine off-road thrills. Suitable for complete beginners through to experienced riders, the automatic buggy is incredibly intuitive to drive.',
-        'After the 60-minute buggy ride, the desert adventure continues with traditional activities including sandboarding, camel riding, and Arabic refreshments. This tour is an excellent choice for solo visitors, couples, and small groups seeking an authentic and affordable Dubai desert experience.',
+        "Early Bird Buggy Tour is one of the most popular dune buggy experiences in Dubai, offering the perfect combination of accessibility, excitement, and desert beauty.",
+        "Morning departure means cooler temperatures and stunning sunrise light. The route takes you through open desert flats for exhilarating speed runs, then up and over towering dune faces.",
+        "After the 60-minute buggy ride, the adventure continues with sandboarding, camel riding, and Arabic refreshments at the desert camp."
       ]}
       inclusions={[
-        '60-minute self-drive dune buggy ride',
-        'Certified helmet and goggles',
-        'Licensed desert guide',
-        'Safety briefing and vehicle orientation',
-        'Sandboarding equipment',
-        'Camel ride at the camp',
-        'Complimentary water and soft drinks',
-        'Scenic photo stops',
-        'Backup safety vehicle',
-        'Full insurance coverage',
+        "60-minute guided desert ride",
+        "Certified helmet and protective goggles",
+        "Licensed desert guide throughout the tour",
+        "Comprehensive safety briefing and vehicle orientation",
+        "Sandboarding equipment and instruction",
+        "Traditional camel ride at the desert camp",
+        "Complimentary water and soft drinks",
+        "Scenic photo stops at panoramic desert viewpoints",
+        "Backup support vehicle for safety",
+        "Full insurance coverage"
       ]}
       exclusions={[
-        'Hotel pickup (available AED 300 per person)',
-        'BBQ dinner (optional add-on)',
-        'Personal expenses and souvenirs',
-        'Professional photography (optional add-on)',
+        "Hotel pickup/drop-off (available AED 300 per person)",
+        "BBQ dinner (optional add-on)",
+        "Personal expenses and souvenirs",
+        "Professional photography service (optional add-on)"
       ]}
       importantInfo={[
-        'Minimum driver age: 16 years. Passengers welcome at any age.',
-        'No driving licence required — buggies are fully automatic.',
-        'Not suitable for pregnant women or those with serious back or heart conditions.',
-        'Closed-toe shoes are mandatory for all riders.',
-        'Arrive 15 minutes before your scheduled departure.',
+        "Minimum driver age is 16 years.",
+        "No driving licence required.",
+        "Not recommended for pregnant women or guests with serious back/heart conditions.",
+        "Closed-toe shoes are mandatory.",
+        "Tours run in most weather conditions."
       ]}
       whyChoose={[
-        { title: 'Best Value Desert Adventure', desc: 'At AED 500 per buggy — not per person — this tour offers exceptional value for money. Split between 2 or 4 riders and enjoy a world-class desert experience for an affordable price.' },
-        { title: 'Morning Timing Advantage', desc: 'Morning departures offer unique advantages — whether it is cooler temperatures, stunning photography light, or the magic of the desert under stars, this timing creates a truly special experience.' },
-        { title: 'Flexible Seating Options', desc: 'Solo riders, couples, and groups of 4 are all catered for with multiple buggy configurations. Everyone can join the adventure regardless of group size.' },
-        { title: 'Zero Advance Payment', desc: 'Book your slot with a simple WhatsApp message. No credit card details, no deposits. Just confirm your date and pay cash or card at the desert camp.' },
+        { title: "Latest Fleet", desc: "All vehicles are recent-model, professionally maintained with certified safety equipment." },
+        { title: "Expert Guides", desc: "Licensed, first-aid certified desert guides with deep knowledge of the Al Badayer region." },
+        { title: "No Advance Payment", desc: "Reserve via WhatsApp with no upfront payment. Pay cash or card at the desert camp." },
+        { title: "Flexible Booking", desc: "Morning, afternoon, and evening departures. Change your booking up to 24 hours before." }
       ]}
-      perfectFor={['Solo Adventurers', 'Couples', 'Small Groups', 'Dubai Tourists', 'UAE Residents', 'Adventure Seekers', 'Photography Lovers']}
+      perfectFor={[
+        "Solo Adventurers",
+        "Couples",
+        "Small Groups",
+        "Dubai Tourists",
+        "UAE Residents",
+        "Photography Lovers"
+      ]}
       faqs={[
-        { q: 'Is this tour suitable for beginners?', a: 'Absolutely. The automatic transmission and comprehensive safety briefing ensure complete beginners feel confident and in control from the very start.' },
-        { q: 'How many people fit per buggy?', a: 'Available in 1-seater, 2-seater, and 4-seater options. The price is per buggy, so groups can share the cost for great value.' },
-        { q: 'What should I wear?', a: 'Comfortable casual clothing and closed-toe shoes (mandatory). Sunglasses, sunscreen, and a light jacket for cooler departures are recommended.' },
-        { q: 'How far is the desert from Dubai?', a: 'The Al Badayer Desert is approximately 50 kilometres from Dubai city centre — around 45–60 minutes by car depending on traffic.' },
-        { q: 'Can I book for the same day?', a: 'Yes, subject to availability. We recommend booking at least 24 hours in advance to guarantee your preferred time slot.' },
+        { q: "Do I need a driving licence?", a: "No driving licence is required. Our buggies are fully automatic with comprehensive safety briefing." },
+        { q: "What is the minimum age?", a: "Drivers must be 16+ years old. Passengers of any age welcome with adult supervision." },
+        { q: "What should I wear?", a: "Comfortable casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended." },
+        { q: "Is hotel pickup included?", a: "Shared hotel transfer is available for AED 300 per person from anywhere in Dubai." },
+        { q: "What is the cancellation policy?", a: "Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded." },
+        { q: "Can I bring a camera?", a: "Yes, cameras and GoPros are welcome. Secure all devices before riding. Multiple photo stops included." }
       ]}
       relatedTours={[
-        { name: "Can-Am Maverick R X RS '26", href: '/dune-buggy-dubai/can-am-maverick-r-x-rs-26', price: 'AED 999', image: '/images/tours/canam-rxrs-card.webp' },
-        { name: 'Can-Am Maverick XRS 26', href: '/dune-buggy-dubai/can-am-maverick-xrs-26', price: 'AED 800', image: '/images/tours/canam-xrs-card.webp' },
-        { name: 'Stage 4 Stunner', href: '/dune-buggy-dubai/stage-4-stunner-rzr-pro-r-ultimate', price: 'AED 1,499', image: '/images/tours/stage4-stunner-card.webp' },
+        { name: "Can-Am Maverick R X RS '26", href: "/dune-buggy-dubai/can-am-maverick-r-x-rs-26", price: "AED 999", image: "/images/tours/canam-rxrs-card.webp" },
+        { name: "Red Dunes Afternoon", href: "/dune-buggy-dubai/red-dunes-afternoon-buggies", price: "AED 500", image: "/images/tours/red-dunes-card.webp" },
+        { name: "Night Riders", href: "/dune-buggy-dubai/night-riders-dune-buggy-dubai", price: "AED 500", image: "/images/tours/night-riders-card.webp" }
       ]}
       partnerAnchor="desert buggy ride Dubai"
     />
