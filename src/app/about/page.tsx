@@ -53,7 +53,7 @@ export default function AboutPage() {
                 <h2 className="font-heading text-3xl font-bold text-brand-dark mb-5">Our Fleet</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {[
-                    { img: "/images/tours/canam-rxrs-card.webp', name: "Can-Am Maverick R X RS '26", desc: 'Turbocharged engine with Smart-Shox suspension. The flagship of our desert fleet.' },
+                    { img: '/images/tours/canam-rxrs-card.webp', name: "Can-Am Maverick R X RS '26", desc: 'Turbocharged engine with Smart-Shox suspension. The flagship of our desert fleet.' },
                     { img: '/images/tours/canam-xrs-card.webp', name: 'Can-Am Maverick XRS 26', desc: 'Agility meets power. Perfect for couples and small groups at all skill levels.' },
                     { img: '/images/tours/stage4-stunner-card.webp', name: 'Stage 4 Stunner: RZR PRO R', desc: '4-seater powerhouse with EPS power steering. The ultimate family adventure machine.' },
                   ].map((v) => (
