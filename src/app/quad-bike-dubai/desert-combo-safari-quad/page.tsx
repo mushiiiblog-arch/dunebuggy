@@ -1,81 +1,225 @@
 import type { Metadata } from 'next';
-import TourPageLayout from '@/components/TourPageLayout';
+import Link from 'next/link';
 import { SITE } from '@/data/siteData';
+import AnimateOnScroll from '@/components/AnimateOnScroll';
+
 export const dynamic = 'force-static';
+
 export const metadata: Metadata = {
-  title: 'Desert Combo: Sharing Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199. AED 199. Safety gear included. Book via WhatsApp.',
+  title: 'Desert Combo: Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental',
+  description: 'Best value package combining evening desert safari with thrilling quad bike adventure. Book now for AED 199. Professional guides, safety gear included.',
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/desert-combo-safari-quad` },
 };
-export default function Page() {
+
+export default function desert_combo_safari_quadPage() {
   return (
-    <TourPageLayout
-      name="Desert Combo: Sharing Safari + Quad Bike"
-      breadcrumbParent={{ label: 'Quad Bike Dubai', href: '/quad-bike-dubai' }}
-      tagline="Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199."
-      price="AED 199"
-      duration="60 Minutes"
-      seater="1-Seater"
-      persons="1 Person"
-      difficulty="All Levels"
-      heroImage="/images/quad/desert-combo-quad-card.webp"
-      galleryImages={['/images/quad/desert-combo-quad-gallery-1.webp', '/images/quad/desert-combo-quad-gallery-2.webp', '/images/quad/desert-combo-quad-gallery-3.webp', '/images/quad/desert-combo-quad-gallery-4.webp']}
-      highlights={[
-        'Self-drive a high-performance quad bike across the iconic Al Badayer Red Dunes of Dubai',
-        '1-Seater ATV configuration — 1 Person adventure across the crimson desert landscape',
-        'Yamaha and specialist ATVs with automatic or semi-automatic transmission for all skill levels',
-        'Licensed desert guides lead small groups ensuring maximum safety and excitement',
-        'Includes refreshments and scenic photo stops at panoramic desert viewpoints',
-        'Easy WhatsApp booking with no advance payment — pay at the desert camp',
-      ]}
-      overview={[
-        'The Desert Combo Safari and Quad package represents extraordinary value — two completely different desert experiences bundled into one evening for a single price. The evening safari portion covers all the classic Dubai desert experiences: thrilling 4x4 dune bashing with a professional driver, a traditional camel ride, sandboarding, henna painting, Arabic coffee and dates, BBQ dinner, and a spectacular cultural show.',
-        'The quad bike component adds a personal adventure dimension that sets this package apart from a standard safari. You take control of a 1-seater quad bike and self-navigate a 60-minute desert route under the guidance of our licensed instructor. For solo travellers and budget-conscious guests who want to experience everything Dubai's desert has to offer, this is the definitive package.',
-        'As with all our tours, the experience extends beyond just the ride. Complimentary refreshments at the desert camp, scenic photography stops across the most photogenic dune formations in the Al Badayer region, and the guidance of experienced desert professionals ensure your quad bike adventure is a complete experience from start to finish.',
-      ]}
-      inclusions={[
-        '60-minute quad bike ride',
-        'Certified helmet and goggles',
-        'Licensed desert guide',
-        'Safety briefing and vehicle orientation',
-        'Complimentary water and soft drinks',
-        'Scenic photo stops',
-        'Backup safety vehicle',
-        'Full insurance coverage',
-      ]}
-      exclusions={[
-        'Hotel pickup (available for AED 300 per person)',
-        'BBQ dinner (optional add-on)',
-        'Personal expenses',
-        'Professional photography (optional add-on)',
-      ]}
-      importantInfo={[
-        'Minimum rider age: 16 years.',
-        'Not suitable for pregnant women or those with serious back or heart conditions.',
-        'Closed-toe shoes are mandatory.',
-        'Arrive 15 minutes before departure.',
-        'Tours operate in most weather conditions — severe weather may result in free reschedule.',
-      ]}
-      whyChoose={[
-        { title: 'Authentic Desert Experience', desc: 'The Al Badayer Red Dunes offer one of the most spectacular desert landscapes in the world. Our carefully planned routes showcase the very best of this iconic terrain.' },
-        { title: 'Professional Safety Standards', desc: 'All equipment is certified, all guides are licensed and first-aid trained, and every tour includes a backup safety vehicle. Your safety is our absolute priority.' },
-        { title: 'No Advance Payment', desc: 'Reserve your slot with a WhatsApp message. Zero payment upfront — pay cash or card at the desert camp before the tour starts.' },
-        { title: 'Flexible Booking', desc: 'Morning, afternoon, and evening departures available. Change your booking up to 24 hours before with no penalty.' },
-      ]}
-      perfectFor={['Solo Riders', 'Couples', 'Friend Groups', 'Adventure Seekers', 'Photography Enthusiasts', 'Dubai Visitors', 'UAE Residents']}
-      faqs={[
-        { q: 'Do I need experience to ride a quad bike?', a: 'No prior experience is needed. Our ATVs are easy to operate and our guides provide thorough instruction before the tour begins.' },
-        { q: 'What should I wear?', a: 'Comfortable, casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended. Light jacket for cooler departures.' },
-        { q: 'How do I get to the desert?', a: 'Shared hotel transfer available for AED 300 per person. Or drive yourself — we send GPS coordinates on booking confirmation.' },
-        { q: 'Can I bring a camera?', a: 'Yes — cameras and GoPros are welcome. Ensure all devices are securely mounted before riding. Multiple photo stops included.' },
-        { q: 'What is the cancellation policy?', a: 'Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded.' },
-      ]}
-      relatedTours={[
-        { name: 'Early Bird Quad 1-Seater', href: '/quad-bike-dubai/early-bird-quad-1-seater', price: 'AED 150', image: '/images/quad/early-bird-quad-card.webp' },
-        { name: 'Yamaha 700cc Raptor', href: '/quad-bike-dubai/yamaha-700cc-raptor', price: 'AED 500', image: '/images/quad/yamaha-raptor-card.webp' },
-        { name: 'Shared Evening Safari', href: '/desert-safari-dubai/shared-evening-safari', price: 'AED 150', image: '/images/gallery/safari-1.webp' },
-      ]}
-      partnerAnchor="quad bike Dubai tour"
-    />
+    <>
+      {/* Hero */}
+      <section className="relative pt-32 pb-20 md:pt-44 md:pb-28 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-dark via-[#16213E] to-[#0F3460]" />
+        <img src="/images/quad/desert-combo-safari-card.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-luminosity" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <nav className="breadcrumb-nav text-sm text-white/50 mb-6">
+            <Link href="/">Home</Link> <span className="mx-2">/</span>
+            <Link href="/quad-bike-dubai">Quad Bike Dubai</Link> <span className="mx-2">/</span>
+            <span className="text-brand-orange">Desert Combo: Safari + Quad Bike</span>
+          </nav>
+          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">Desert Combo: Safari + Quad Bike</h1>
+          <p className="text-white/60 text-lg md:text-xl max-w-3xl leading-relaxed mb-8">
+            Best value package combining evening desert safari with thrilling quad bike adventure. Experience the thrill of quad biking across Dubai's iconic red dunes.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-primary">Book Now - AED 199</a>
+            <Link href="/prices" className="btn-secondary">View All Prices</Link>
+          </div>
+        </div>
+        <div className="absolute bottom-0 left-0 right-0">
+          <svg viewBox="0 0 1440 100" fill="none" preserveAspectRatio="none" className="w-full h-16 md:h-24">
+            <path d="M0 100V60C200 30 400 10 600 20C800 30 1000 60 1200 50C1400 40 1440 50 1440 50V100H0Z" fill="#FEFCF6"/>
+          </svg>
+        </div>
+      </section>
+
+      {/* Tour Intro */}
+      <section className="py-16 bg-brand-cream">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <div className="prose prose-lg text-gray-600 max-w-none">
+              <p className="text-xl leading-relaxed mb-6">
+                Experience the ultimate quad bike adventure in Dubai with our Desert Combo: Safari + Quad Bike package. This 1-Seater ATV tour takes you across the breathtaking Al Badayer Red Dunes, offering an unforgettable <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">desert adventure</a> that combines adrenaline, stunning scenery, and professional guidance.
+              </p>
+              <p className="leading-relaxed mb-6">
+                Our Desert Combo: Safari + Quad Bike tour is designed for adventure seekers who want to explore Dubai's desert landscape on a high-performance quad bike. Whether you're a first-time rider or an experienced ATV enthusiast, our professional guides ensure a safe and thrilling experience across the towering sand dunes of the Al Badayer Desert.
+              </p>
+              <p className="leading-relaxed">
+                Every tour includes comprehensive safety equipment, professional instruction, refreshments, and opportunities for stunning desert photography. This is more than just a <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">quad bike ride</a> — it's a complete desert adventure that showcases the natural beauty of Dubai's iconic red dunes.
+              </p>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Tour Details Card */}
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <div className="bg-gradient-to-br from-brand-dark to-brand-dark-2 rounded-3xl p-8 md:p-12 text-white">
+              <h2 className="font-heading text-3xl font-bold mb-8">Tour Details</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                  <div className="text-brand-orange text-sm font-semibold mb-2">DURATION</div>
+                  <div className="text-2xl font-bold">60 Minutes</div>
+                </div>
+                <div>
+                  <div className="text-brand-orange text-sm font-semibold mb-2">SEATING</div>
+                  <div className="text-2xl font-bold">1-Seater</div>
+                </div>
+                <div>
+                  <div className="text-brand-orange text-sm font-semibold mb-2">PRICE</div>
+                  <div className="text-2xl font-bold">AED 199</div>
+                </div>
+                <div>
+                  <div className="text-brand-orange text-sm font-semibold mb-2">DIFFICULTY</div>
+                  <div className="text-2xl font-bold">Beginner-Friendly</div>
+                </div>
+              </div>
+              <div className="mt-8 pt-8 border-t border-white/20">
+                <h3 className="font-bold text-xl mb-4">Key Features</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {['Professional Desert Guide', 'Safety Gear Included', 'Refreshments Provided', 'Photo Opportunities', 'Sandboarding Activity', 'Camel Ride Option'].map((f) => (
+                    <div key={f} className="flex items-center gap-3">
+                      <svg className="w-5 h-5 text-brand-orange" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+                      </svg>
+                      <span>{f}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* What's Included */}
+      <section className="py-16 bg-brand-cream">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-10 text-center">What's Included</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { icon: '🏍️', title: 'Quad Bike Rental', desc: 'High-performance ATV for the duration' },
+                { icon: '🪖', title: 'Safety Equipment', desc: 'Helmet, goggles, protective gear' },
+                { icon: '👨‍🏫', title: 'Professional Guide', desc: 'Licensed desert guide throughout' },
+                { icon: '💧', title: 'Refreshments', desc: 'Complimentary water and soft drinks' },
+                { icon: '🏜️', title: 'Sandboarding', desc: 'Free sandboarding down the dunes' },
+                { icon: '🐫', title: 'Camel Ride', desc: 'Short traditional camel ride' },
+                { icon: '📸', title: 'Photo Stops', desc: 'Scenic viewpoints for photography' },
+                { icon: '🛡️', title: 'Insurance', desc: 'Full coverage included' },
+              ].map((item) => (
+                <div key={item.title} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                  <div className="text-3xl mb-3">{item.icon}</div>
+                  <h3 className="font-bold text-brand-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600 text-sm">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Why Choose */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-10 text-center">Why Choose This Tour</h2>
+            <div className="space-y-6">
+              {[
+                { title: 'Perfect for All Skill Levels', desc: 'Whether you are a complete beginner or experienced rider, our automatic quad bikes and expert instruction make this tour accessible to everyone.' },
+                { title: 'Stunning Desert Scenery', desc: 'Ride across the iconic red dunes of Al Badayer Desert, one of the most photogenic desert landscapes in the UAE.' },
+                { title: 'Small Group Experience', desc: 'Limited group sizes ensure personalized attention from your guide and a more intimate desert experience.' },
+                { title: 'Flexible Timing Options', desc: 'Choose from morning, afternoon, or evening departures to suit your schedule and preferred lighting conditions.' },
+              ].map((item) => (
+                <div key={item.title} className="bg-brand-cream rounded-xl p-6">
+                  <h3 className="font-bold text-brand-dark text-lg mb-2">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Perfect For */}
+      <section className="py-16 bg-brand-cream">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-6 text-center">Perfect For</h2>
+            <div className="bg-white rounded-2xl p-8 shadow-sm">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {['Solo Adventurers', 'Couples', 'Friends & Groups', 'Families (age 16+)', 'First-Time Riders', 'Experienced ATV Enthusiasts', 'Photography Lovers', 'Adventure Seekers'].map((item) => (
+                  <div key={item} className="flex items-center gap-3">
+                    <svg className="w-6 h-6 text-brand-orange shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"/>
+                    </svg>
+                    <span className="text-gray-700 font-medium">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimateOnScroll>
+            <h2 className="font-heading text-3xl font-bold text-brand-dark mb-10 text-center">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {[
+                { q: 'Do I need prior quad bike experience?', a: 'No experience necessary. Our quad bikes are automatic and easy to operate. Full safety briefing and practice session provided.' },
+                { q: 'What is the minimum age?', a: 'Riders must be 16+ years old. Passengers (2-seater) can be younger with parental consent.' },
+                { q: 'What should I wear?', a: 'Comfortable casual clothing and closed-toe shoes (mandatory). Avoid loose scarves or jewelry. Sunglasses and sunscreen recommended.' },
+                { q: 'Is pickup included?', a: 'Shared hotel pickup available for AED 300 from anywhere in Dubai. Or you can drive directly to the camp.' },
+                { q: 'When is the best time for this tour?', a: 'Morning tours offer cooler temperatures. Afternoon tours provide stunning golden-hour photography. Choose based on your preference.' },
+                { q: 'Can I ride solo or must I share?', a: '1-Seater quad bikes available. Choose based on your preference and group size.' },
+              ].map((faq) => (
+                <div key={faq.q} className="bg-brand-cream rounded-xl p-6 border border-gray-100">
+                  <h3 className="font-bold text-brand-dark mb-2">{faq.q}</h3>
+                  <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+
+      {/* Booking CTA */}
+      <section className="py-16 bg-gradient-to-br from-brand-dark to-brand-dark-2">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <AnimateOnScroll>
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">Ready to Ride?</h2>
+            <p className="text-white/60 text-lg mb-8">Book now via WhatsApp. No advance payment required. Pay at the camp before your tour.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+              <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg">
+                Book on WhatsApp
+              </a>
+              <Link href="/how-to-book" className="btn-secondary text-lg">How to Book</Link>
+              <Link href="/prices" className="btn-secondary text-lg">View Prices</Link>
+            </div>
+            <div className="text-white/40 text-sm">
+              <Link href="/" className="hover:text-brand-orange transition-colors">Home</Link>
+              <span className="mx-2">•</span>
+              <Link href="/quad-bike-dubai" className="hover:text-brand-orange transition-colors">Quad Bike Dubai</Link>
+              <span className="mx-2">•</span>
+              <Link href="/dune-buggy-dubai" className="hover:text-brand-orange transition-colors">Dune Buggy Tours</Link>
+              <span className="mx-2">•</span>
+              <Link href="/desert-safari-dubai" className="hover:text-brand-orange transition-colors">Desert Safari</Link>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </section>
+    </>
   );
 }

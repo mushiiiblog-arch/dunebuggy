@@ -200,22 +200,13 @@ function TourPackages() {
                       <span key={f} className="text-[11px] font-medium text-brand-orange bg-brand-orange/5 rounded-full px-2.5 py-1">{f}</span>
                     ))}
                   </div>
-                  <div className="flex gap-2">
-                    <Link
-                      href={`/dune-buggy-dubai/${tour.slug}`}
-                      className="flex-1 text-center border-2 border-brand-orange text-brand-orange font-semibold text-sm py-2.5 px-3 rounded-xl hover:bg-brand-orange hover:text-white transition-all duration-200"
-                    >
-                      Tour Details
-                    </Link>
-                    <a
-                      href={SITE.whatsapp}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex-1 btn-primary justify-center text-sm !py-2.5"
-                    >
-                      Book Now
-                    </a>
-                  </div>
+                  <Link
+                    href={SITE.whatsapp}
+                    target="_blank"
+                    className="btn-primary w-full justify-center text-sm !py-3"
+                  >
+                    Book This Tour
+                  </Link>
                 </div>
               </div>
             </AnimateOnScroll>
@@ -322,17 +313,6 @@ function TourHighlights() {
    OPTIONAL ADD-ONS
    ═══════════════════════════════════════════════════ */
 function OptionalAddOns() {
-  const addOns = [
-    { icon: '🚐', title: 'Paid Transfer', desc: 'Shared hotel pickup & drop-off from anywhere in Dubai. AED 300 per person.' },
-    { icon: '🍖', title: 'BBQ Dinner', desc: 'Authentic Arabian BBQ buffet with grilled meats, salads, bread, and desserts.' },
-    { icon: '👨‍🏫', title: 'Private Guide', desc: 'Dedicated personal guide exclusively for your group throughout the tour.' },
-    { icon: '📸', title: 'Professional Photos', desc: 'Professional photographer captures every thrilling moment of your adventure.' },
-    { icon: '🏍️', title: 'ATV Rides', desc: 'Add a high-performance quad bike ATV ride to your desert adventure package.' },
-    { icon: '🚙', title: 'Dune Bashing', desc: 'Heart-pounding 4x4 dune bashing across the towering Al Badayer Red Dunes.' },
-    { icon: '🏁', title: 'Dirt Bikes', desc: 'Off-road dirt bike experience for thrill-seekers who want ultimate terrain control.' },
-    { icon: '🛍️', title: 'Desert Shopping', desc: 'Browse authentic Arabian souvenirs, handicrafts, and keepsakes at the desert camp.' },
-  ];
-
   return (
     <section className="py-20 md:py-28 bg-brand-dark relative overflow-hidden">
       <div className="absolute inset-0 opacity-10" style={{
@@ -346,30 +326,22 @@ function OptionalAddOns() {
               Optional Add-Ons
             </h2>
             <p className="text-white/60 text-lg leading-relaxed">
-              Customise your desert adventure with premium extras. Ask us when booking.
+              Take your desert adventure to the next level with premium optional services.
             </p>
           </div>
         </AnimateOnScroll>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {addOns.map((item, i) => (
-            <AnimateOnScroll key={item.title} delay={i * 60}>
-              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-brand-orange/40 hover:bg-white/10 transition-all duration-400 h-full group">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">{item.icon}</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          {ADD_ONS.map((item, i) => (
+            <AnimateOnScroll key={item.title} delay={i * 80}>
+              <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-brand-orange/40 hover:bg-white/10 transition-all duration-400 h-full">
+                <div className="text-brand-orange font-bold text-sm mb-3">{item.price}</div>
                 <h3 className="font-bold text-white text-base mb-2">{item.title}</h3>
                 <p className="text-white/50 text-sm leading-relaxed">{item.desc}</p>
               </div>
             </AnimateOnScroll>
           ))}
         </div>
-
-        <AnimateOnScroll>
-          <div className="text-center mt-10">
-            <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg">
-              Ask About Add-Ons on WhatsApp
-            </a>
-          </div>
-        </AnimateOnScroll>
       </div>
     </section>
   );
@@ -379,17 +351,6 @@ function OptionalAddOns() {
    HOMEPAGE GALLERY
    ═══════════════════════════════════════════════════ */
 function HomepageGallery() {
-  const galleryImages = [
-    { src: '/images/gallery/gallery-1.webp', alt: 'Can-Am Maverick dune buggy on red dunes Dubai', title: 'Can-Am Maverick Action' },
-    { src: '/images/gallery/gallery-2.webp', alt: 'Dune buggy convoy Al Badayer Desert Dubai', title: 'Desert Convoy' },
-    { src: '/images/gallery/gallery-3.webp', alt: 'Self-drive dune buggy experience Dubai', title: 'Self-Drive Experience' },
-    { src: '/images/gallery/gallery-4.webp', alt: 'Desert safari dune bashing Dubai', title: 'Desert Safari' },
-    { src: '/images/gallery/gallery-5.webp', alt: 'Dune buggy sunset golden dunes Dubai', title: 'Golden Dunes Ride' },
-    { src: '/images/gallery/gallery-6.webp', alt: 'Stage 4 Stunner RZR PRO R dune buggy', title: 'Stage 4 Stunner' },
-    { src: '/images/gallery/gallery-7.webp', alt: 'Can-Am dune buggy desert tour Dubai', title: 'Can-Am Desert Tour' },
-    { src: '/images/gallery/gallery-8.webp', alt: 'Night dune buggy LED adventure Dubai desert', title: 'Night Riders' },
-  ];
-
   return (
     <section className="py-20 md:py-28 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -400,36 +361,42 @@ function HomepageGallery() {
               See the Adventure That Awaits
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Real moments from our dune buggy tours, quad bike rides, and desert safaris across the Al Badayer Red Dunes.
+              Real moments from our dune buggy tours across the Al Badayer Red Dunes. Your adventure looks like this.
             </p>
           </div>
         </AnimateOnScroll>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
-          {galleryImages.map((img, i) => (
-            <AnimateOnScroll key={img.src} delay={i * 60}>
-              <div className="relative group rounded-2xl overflow-hidden cursor-pointer aspect-[4/3]">
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  loading="lazy"
-                  width={800}
-                  height={600}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
-                <div className="absolute bottom-0 left-0 right-0 p-3 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
-                  <p className="text-white font-bold text-xs md:text-sm">{img.title}</p>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
+          {GALLERY_IMAGES.map((img, i) => {
+            const spanClass = i === 0 ? 'col-span-2 row-span-2' : i === 3 ? 'col-span-2' : '';
+            return (
+              <AnimateOnScroll key={img.src} delay={i * 80}>
+                <div className={`${spanClass} relative group rounded-2xl overflow-hidden cursor-pointer`}>
+                  <div className={`${i === 0 ? 'h-64 md:h-[420px]' : i === 3 ? 'h-48 md:h-52' : 'h-48 md:h-52'}`}>
+                    <img
+                      src={img.src}
+                      alt={img.alt}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                      loading="lazy"
+                      width={i === 0 ? 1200 : 800}
+                      height={i === 0 ? 700 : 500}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
+                    <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-400">
+                      <p className="text-white font-bold text-sm">{img.title}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </AnimateOnScroll>
-          ))}
+              </AnimateOnScroll>
+            );
+          })}
         </div>
 
         <AnimateOnScroll>
           <div className="text-center mt-10">
-            <Link href="/gallery" className="btn-secondary text-base">
-              View Full Gallery →
+            <Link href="/gallery" className="inline-flex items-center gap-2 text-brand-orange font-semibold hover:gap-3 transition-all">
+              View Full Gallery
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
             </Link>
           </div>
         </AnimateOnScroll>
@@ -437,7 +404,6 @@ function HomepageGallery() {
     </section>
   );
 }
-
 
 /* ═══════════════════════════════════════════════════
    SERVICES OVERVIEW (Topical Map / Silo)
@@ -710,7 +676,7 @@ function SEOContent() {
               Beyond the buggy ride, our tours are enriched with authentic desert experiences: sandboarding down towering dunes, camel riding through golden sands, scenic photo stops, and the option to extend your evening with a traditional Arabian BBQ dinner, live entertainment, and shisha under the stars.
             </p>
             <p>
-              Buggy Dubai Rental also serves as your gateway to a broader range of desert adventures. Our <Link href="/quad-bike-dubai" className="text-brand-orange font-semibold hover:underline">Quad Bike Dubai</Link> tours offer open-air ATV riding across vast desert plains, while our <Link href="/desert-safari-dubai" className="text-brand-orange font-semibold hover:underline">Desert Safari Dubai</Link> packages deliver the iconic 4x4 dune bashing, cultural performances, and starlit dinner experiences that have made Dubai famous as the world&apos;s premier desert tourism destination. For curated travel packages and group bookings, visit our partner site <a href="https://bnbtravelandtours.com/" target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">BnB Travel and Tours</a> for complete Dubai desert tour packages.
+              Buggy Dubai Rental also serves as your gateway to a broader range of desert adventures. Our <Link href="/quad-bike-dubai" className="text-brand-orange font-semibold hover:underline">Quad Bike Dubai</Link> tours offer open-air ATV riding across vast desert plains, while our <Link href="/desert-safari-dubai" className="text-brand-orange font-semibold hover:underline">Desert Safari Dubai</Link> packages deliver the iconic 4x4 dune bashing, cultural performances, and starlit dinner experiences that have made Dubai famous as the world&apos;s premier desert tourism destination.
             </p>
           </div>
         </AnimateOnScroll>
@@ -726,7 +692,6 @@ export default function HomePage() {
   return (
     <>
       <HeroSection />
-      <SEOContent />
       <WhyChooseUs />
       <TourPackages />
       <WhatsIncluded />
@@ -737,6 +702,7 @@ export default function HomePage() {
       <BookingCTA />
       <FAQSection />
       <ContactSection />
+      <SEOContent />
     </>
   );
 }
