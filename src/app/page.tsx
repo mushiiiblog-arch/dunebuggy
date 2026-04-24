@@ -686,32 +686,138 @@ function ContactSection() {
 }
 
 /* ═══════════════════════════════════════════════════
-   SEO RICH CONTENT
+   SEO RICH CONTENT (INTRO WITH IMAGE)
    ═══════════════════════════════════════════════════ */
 function SEOContent() {
   return (
-    <section className="py-16 md:py-20 bg-brand-cream border-t border-gray-200">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 md:py-24 bg-brand-cream">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
+          {/* LEFT: Image */}
+          <AnimateOnScroll>
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl group">
+              <img
+                src="/images/intro-buggy.webp"
+                alt="dune buggy dubai"
+                className="w-full h-[400px] md:h-[520px] object-cover group-hover:scale-105 transition-transform duration-700"
+                width={1200}
+                height={800}
+              />
+              <div className="absolute top-5 left-5 bg-brand-orange text-white px-4 py-2 rounded-full text-sm font-bold shadow-lg">
+                ⭐ #1 Rated in Dubai
+              </div>
+              <div className="absolute bottom-5 right-5 bg-white/95 backdrop-blur-sm rounded-2xl px-5 py-3 shadow-lg">
+                <div className="text-xs text-gray-500 font-semibold">FROM</div>
+                <div className="text-2xl font-heading font-bold text-brand-orange">AED 399</div>
+              </div>
+            </div>
+          </AnimateOnScroll>
+
+          {/* RIGHT: Content */}
+          <AnimateOnScroll delay={150}>
+            <div>
+              <span className="inline-block text-brand-orange font-semibold text-sm tracking-[0.2em] uppercase mb-3">
+                Welcome to Buggy Dubai Rental
+              </span>
+              <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-6 leading-tight">
+                Dune Buggy Dubai — The Ultimate Self-Drive Desert Adventure
+              </h2>
+              <div className="space-y-4 text-gray-600 leading-relaxed text-sm md:text-base">
+                <p>
+                  A <strong>dune buggy tour in Dubai</strong> is one of the most immersive and visually spectacular outdoor adventures available in the world. The Al Badayer Desert, with its iconic red sand dunes rising to heights of over 100 metres, provides a natural arena for off-road exploration unmatched in the entire Middle East.
+                </p>
+                <p>
+                  At Buggy Dubai Rental, we bring this extraordinary landscape to life through professionally guided, <strong>self-drive dune buggy tours</strong> that combine high-performance off-road vehicles — 1-seater, 2-seater, and 4-seater family buggies — with the stunning beauty of the Arabian desert.
+                </p>
+                <p>
+                  Our fleet includes the legendary <strong>Can-Am Maverick</strong>, the high-performance <strong>Polaris RZR</strong>, and the formidable Stage 4 Stunner — the same models used by professional off-road racers worldwide. With turbocharged engines, Smart-Shox suspension, and automatic transmission, these vehicles deliver an exhilarating desert buggy ride accessible to complete beginners.
+                </p>
+                <p>
+                  For curated travel packages and group bookings, visit our partner site <a href="https://bnbtravelandtours.com/" target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">BnB Travel and Tours</a> — your gateway to complete Dubai desert tour experiences.
+                </p>
+              </div>
+
+              {/* Feature badges */}
+              <div className="mt-8 grid grid-cols-2 gap-3">
+                {[
+                  { icon: '✅', text: 'No advance payment' },
+                  { icon: '🚐', text: 'Hotel transfer available' },
+                  { icon: '🛡️', text: 'Licensed & insured' },
+                  { icon: '⭐', text: '5-star guest reviews' },
+                ].map((item) => (
+                  <div key={item.text} className="flex items-center gap-2 text-sm text-gray-700">
+                    <span>{item.icon}</span>
+                    <span className="font-medium">{item.text}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="mt-8 flex flex-wrap gap-3">
+                <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                  Book on WhatsApp
+                </a>
+                <Link href="/prices" className="btn-secondary">View Prices</Link>
+              </div>
+            </div>
+          </AnimateOnScroll>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════
+   HOW TO BOOK (Homepage Section)
+   ═══════════════════════════════════════════════════ */
+function HowToBookSection() {
+  const steps = [
+    { n: '1', icon: '💬', title: 'Message Us on WhatsApp', desc: 'Send a quick message with your preferred tour, date, and number of guests.' },
+    { n: '2', icon: '📅', title: 'Choose Tour & Time', desc: 'Pick your buggy, quad, or safari — and your preferred morning, afternoon, or night slot.' },
+    { n: '3', icon: '✅', title: 'Get Instant Confirmation', desc: 'We confirm within minutes and send you pickup details and camp location.' },
+    { n: '4', icon: '🚐', title: 'We Pick You Up', desc: 'Optional hotel transfer AED 300 — we collect you from anywhere in Dubai.' },
+    { n: '5', icon: '💰', title: 'Pay at Desert Camp', desc: 'No advance payment. Pay cash or card on arrival, then enjoy your adventure.' },
+  ];
+
+  return (
+    <section className="py-20 md:py-28 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateOnScroll>
-          <h2 className="font-heading text-2xl md:text-3xl font-bold text-brand-dark mb-6">
-            Dune Buggy Dubai — The Ultimate Self-Drive Desert Adventure
-          </h2>
-          <div className="prose prose-lg text-gray-600 leading-relaxed space-y-4 text-sm md:text-base">
-            <p>
-              A dune buggy tour in Dubai is one of the most immersive and visually spectacular outdoor adventures available in the world. The Al Badayer Desert, with its iconic red sand dunes rising to heights of over 100 metres, provides a natural arena for off-road exploration that is unmatched in the entire Middle East.
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="inline-block text-brand-orange font-semibold text-sm tracking-[0.2em] uppercase mb-3">
+              How It Works
+            </span>
+            <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-5">
+              How to Book Your Desert Adventure
+            </h2>
+            <p className="text-gray-600 text-lg leading-relaxed">
+              Simple 5-step booking process. No advance payment required. Pay at the desert camp before your tour starts.
             </p>
-            <p>
-              At Buggy Dubai Rental, we bring this extraordinary landscape to life through professionally guided, self-drive dune buggy tours that combine high-performance off-road vehicles with the stunning beauty of the Arabian desert. Whether you are a tourist on holiday, a UAE resident seeking weekend adventure, or a corporate group looking for a memorable team experience, our range of dune buggy packages caters to every preference and budget.
-            </p>
-            <p>
-              Our fleet includes the legendary Can-Am Maverick, the high-performance Polaris RZR, and the formidable Stage 4 Stunner — the same models used by professional off-road racers worldwide. With turbocharged engines, Smart-Shox suspension, reinforced roll cages, and automatic transmission, these vehicles deliver an exhilarating ride that is accessible to complete beginners.
-            </p>
-            <p>
-              Beyond the buggy ride, our tours are enriched with authentic desert experiences: sandboarding down towering dunes, camel riding through golden sands, scenic photo stops, and the option to extend your evening with a traditional Arabian BBQ dinner, live entertainment, and shisha under the stars.
-            </p>
-            <p>
-              Buggy Dubai Rental also serves as your gateway to a broader range of desert adventures. Our <Link href="/quad-bike-dubai" className="text-brand-orange font-semibold hover:underline">Quad Bike Dubai</Link> tours offer open-air ATV riding across vast desert plains, while our <Link href="/desert-safari-dubai" className="text-brand-orange font-semibold hover:underline">Desert Safari Dubai</Link> packages deliver the iconic 4x4 dune bashing, cultural performances, and starlit dinner experiences that have made Dubai famous as the world&apos;s premier desert tourism destination. For curated travel packages and group bookings, visit our partner site <a href="https://bnbtravelandtours.com/" target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">BnB Travel and Tours</a> for complete Dubai desert tour packages.
-            </p>
+          </div>
+        </AnimateOnScroll>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5">
+          {steps.map((s, i) => (
+            <AnimateOnScroll key={s.n} delay={i * 80}>
+              <div className="relative bg-brand-cream rounded-2xl p-6 h-full border border-gray-100 hover:shadow-lg hover:border-brand-orange/30 transition-all">
+                <div className="flex items-start gap-3 mb-3">
+                  <div className="w-10 h-10 rounded-full bg-brand-orange text-white font-bold text-lg flex items-center justify-center shrink-0">{s.n}</div>
+                  <div className="text-3xl">{s.icon}</div>
+                </div>
+                <h3 className="font-bold text-brand-dark text-base mb-2">{s.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
+              </div>
+            </AnimateOnScroll>
+          ))}
+        </div>
+
+        <AnimateOnScroll>
+          <div className="text-center mt-10 flex flex-wrap gap-4 justify-center">
+            <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg">
+              📱 Book on WhatsApp Now
+            </a>
+            <Link href="/how-to-book" className="btn-secondary">
+              Read Full Booking Guide →
+            </Link>
           </div>
         </AnimateOnScroll>
       </div>
@@ -727,8 +833,9 @@ export default function HomePage() {
     <>
       <HeroSection />
       <SEOContent />
-      <WhyChooseUs />
       <TourPackages />
+      <HowToBookSection />
+      <WhyChooseUs />
       <WhatsIncluded />
       <TourHighlights />
       <OptionalAddOns />

@@ -41,7 +41,7 @@ export default function PricesPage() {
           <AnimateOnScroll>
             <div className="text-center">
               <p className="text-gray-600 leading-relaxed mb-4">
-                At Buggy Dubai Rental, we believe in transparent pricing with no hidden costs. All our <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">dune buggy tour</a> packages include safety gear, professional guides, refreshments, and desert activities like sandboarding and camel rides.
+                At Buggy Dubai Rental, we believe in transparent pricing with no hidden costs. All our <Link href="/dune-buggy-dubai" className="text-brand-orange font-semibold hover:underline">dune buggy tour</Link> packages include safety gear, professional guides, refreshments, and desert activities like sandboarding and camel rides.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Need help choosing? <Link href="/how-to-book" className="text-brand-orange font-semibold hover:underline">Learn how to book</Link> or <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">chat with us on WhatsApp</a>.
@@ -57,7 +57,7 @@ export default function PricesPage() {
           <AnimateOnScroll>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-3 text-center">Dune Buggy Rental Packages</h2>
             <p className="text-gray-600 text-center mb-10 max-w-3xl mx-auto">
-              Experience the thrill of self-drive dune buggy adventures in Dubai's Al Badayer Desert. Our fleet includes the latest Can-Am Maverick and Polaris RZR models with automatic transmission, making them perfect for both beginners and experienced riders. Each <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">buggy ride Dubai</a> package includes comprehensive safety equipment, professional desert guide, refreshments, sandboarding, and camel riding opportunities.
+              Experience the thrill of self-drive dune buggy adventures in Dubai's Al Badayer Desert. Our fleet includes the latest Can-Am Maverick and Polaris RZR models with automatic transmission, making them perfect for both beginners and experienced riders. Each buggy ride Dubai package includes comprehensive safety equipment, professional desert guide, refreshments, sandboarding, and camel riding opportunities.
             </p>
           </AnimateOnScroll>
 

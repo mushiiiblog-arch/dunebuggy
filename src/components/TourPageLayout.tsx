@@ -187,11 +187,9 @@ export default function TourPageLayout(props: TourPageProps) {
                     {overview.map((para, i) => (
                       <p key={i} className="text-gray-600 leading-relaxed text-sm md:text-base">{para}</p>
                     ))}
-                    {partnerAnchor && (
-                      <p className="text-gray-600 leading-relaxed text-sm md:text-base">
-                        For more Dubai desert adventure packages, visit our partner <a href="https://bnbtravelandtours.com/" target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">{partnerAnchor}</a>.
-                      </p>
-                    )}
+                    <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                      Browse all our tours on the <Link href="/" className="text-brand-orange font-semibold hover:underline">Buggy Dubai Rental homepage</Link>, or explore our full <Link href="/dune-buggy-dubai" className="text-brand-orange font-semibold hover:underline">dune buggy</Link>, <Link href="/quad-bike-dubai" className="text-brand-orange font-semibold hover:underline">quad bike</Link>, and <Link href="/desert-safari-dubai" className="text-brand-orange font-semibold hover:underline">desert safari</Link> collections.
+                    </p>
                   </div>
                 </div>
               </AnimateOnScroll>
