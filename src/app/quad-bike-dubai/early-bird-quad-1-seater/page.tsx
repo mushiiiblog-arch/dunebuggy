@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Early Bird Quad Bike Tour (1-Seater) | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'The most affordable quad bike experience in Dubai — a solo sunrise ride across the red dunes in cool morning temperatures for just AED 150. AED 150. Safety gear included. Book via WhatsApp.',
+  title: "Early Bird Quad Bike Tour (1-Seater) | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "The most affordable quad bike experience in Dubai — a solo sunrise ride across the red dunes in cool morning temperatures for just AED 150. AED 150. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/early-bird-quad-1-seater` },
 };
 export default function Page() {

@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Quad Bike Dubai | ATV Desert Rides & Tours from AED 350',
-  description: 'Book the best quad bike tours in Dubai. High-performance ATV rides across Al Badayer Red Dunes. Solo, couple & group packages. Professional guides, safety gear & refreshments included.',
+  title: "Quad Bike Dubai | ATV Desert Rides & Tours from AED 350",
+  description: "Book the best quad bike tours in Dubai. High-performance ATV rides across Al Badayer Red Dunes. Solo, couple & group packages. Professional guides, safety gear & refreshments included.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai` },
 };
 

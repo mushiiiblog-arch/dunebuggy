@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Yamaha 700cc Raptor + Shared Transfer | Quad Bike Dubai | Buggy Dubai Rental",
-  description: \"The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience. AED 750. Safety gear included. Book via WhatsApp.\",,
+  title: "Yamaha 700cc Raptor + Shared Transfer | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience. AED 750. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/yamaha-raptor-transfer` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Yamaha 700cc Raptor + Shared Transfer\"
-      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      breadcrumbParent={{ label: "Quad Bike Dubai", href: "/quad-bike-dubai" }}
       tagline=\"The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience.\"
       price=\"AED 750\"
       duration=\"60 Minutes\"

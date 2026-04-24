@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Desert Safari Dubai | Evening, Morning & VIP Safari Tours',
-  description: 'Book the best desert safari in Dubai. Evening safari with BBQ dinner & live shows, morning safari, overnight camping & VIP private experiences. Dune bashing, camel rides, sandboarding included. From AED 199.',
+  title: "Desert Safari Dubai | Evening, Morning & VIP Safari Tours",
+  description: "Book the best desert safari in Dubai. Evening safari with BBQ dinner & live shows, morning safari, overnight camping & VIP private experiences. Dune bashing, camel rides, sandboarding included. From AED 199.",
   alternates: { canonical: `${SITE.url}/desert-safari-dubai` },
 };
 

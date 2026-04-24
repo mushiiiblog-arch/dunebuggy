@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Red Dunes Buggy Ride + Shared Transfer Dubai | AED 750 | Buggy Dubai Rental',
-  description: 'Complete dune buggy package with hotel transfer included. 60-min self-drive across red dunes plus pickup from your Dubai hotel. AED 750. Book via WhatsApp.',
+  title: "Red Dunes Buggy Ride + Shared Transfer Dubai | AED 750 | Buggy Dubai Rental",
+  description: "Complete dune buggy package with hotel transfer included. 60-min self-drive across red dunes plus pickup from your Dubai hotel. AED 750. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/red-dunes-buggy-shared-transfer` },
 };
 export default function Page() {

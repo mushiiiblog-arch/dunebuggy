@@ -7,8 +7,8 @@ import FAQAccordion from '@/components/FAQAccordion';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'FAQ | Dune Buggy Dubai Questions Answered | Buggy Dubai Rental',
-  description: 'Frequently asked questions about dune buggy tours, quad bike rides, and desert safaris in Dubai. Age requirements, pricing, safety, cancellation policy and more.',
+  title: "FAQ | Dune Buggy Dubai Questions Answered | Buggy Dubai Rental",
+  description: "Frequently asked questions about dune buggy tours, quad bike rides, and desert safaris in Dubai. Age requirements, pricing, safety, cancellation policy and more.",
   alternates: { canonical: `${SITE.url}/faq` },
 };
 

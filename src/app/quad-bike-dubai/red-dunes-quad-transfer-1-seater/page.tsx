@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Red Dunes Quad Tour + Shared Transfer (1-Seater) | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'Complete 1-seater quad bike adventure with hotel pickup and drop-off included — the most convenient solo quad experience in Dubai. AED 250. Safety gear included. Book via WhatsApp.',
+  title: "Red Dunes Quad Tour + Shared Transfer (1-Seater) | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "Complete 1-seater quad bike adventure with hotel pickup and drop-off included — the most convenient solo quad experience in Dubai. AED 250. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/red-dunes-quad-transfer-1-seater` },
 };
 export default function Page() {

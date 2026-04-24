@@ -7,8 +7,8 @@ import ContactForm from '@/components/ContactForm';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Buggy Dubai Rental — Book Your Desert Adventure',
-  description: 'Contact Buggy Dubai Rental. Book dune buggy tours, quad bike rides & desert safaris in Dubai. WhatsApp: +971 58 507 2674. Open 24/7. Palm Jumeirah, Dubai, UAE.',
+  title: "Contact Us | Buggy Dubai Rental — Book Your Desert Adventure",
+  description: "Contact Buggy Dubai Rental. Book dune buggy tours, quad bike rides & desert safaris in Dubai. WhatsApp: +971 58 507 2674. Open 24/7. Palm Jumeirah, Dubai, UAE.",
   alternates: { canonical: `${SITE.url}/contact` },
 };
 

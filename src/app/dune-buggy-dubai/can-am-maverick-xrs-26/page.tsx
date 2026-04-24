@@ -5,8 +5,8 @@ import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Can-Am Maverick XRS 26 Dune Buggy Dubai | AED 800 | Buggy Dubai Rental',
-  description: 'Self-drive the Can-Am Maverick XRS 26 across Dubai red dunes. 2-4 seater, 60 min, AED 800. Perfect for couples and groups. Book via WhatsApp today.',
+  title: "Can-Am Maverick XRS 26 Dune Buggy Dubai | AED 800 | Buggy Dubai Rental",
+  description: "Self-drive the Can-Am Maverick XRS 26 across Dubai red dunes. 2-4 seater, 60 min, AED 800. Perfect for couples and groups. Book via WhatsApp today.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/can-am-maverick-xrs-26` },
 };
 

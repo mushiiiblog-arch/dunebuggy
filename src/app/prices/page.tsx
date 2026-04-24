@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Prices | Dune Buggy, Quad Bike & Desert Safari Pricing | Buggy Dubai Rental',
-  description: 'Complete pricing guide for dune buggy tours, quad bike rentals, and desert safari packages in Dubai. Transparent rates from AED 150 to AED 1,499. No hidden fees. Book now!",
+  title: "Prices | Dune Buggy, Quad Bike & Desert Safari Pricing | Buggy Dubai Rental",
+  description: "Complete pricing guide for dune buggy tours, quad bike rentals, and desert safari packages in Dubai. Transparent rates from AED 150 to AED 1,499. No hidden fees. Book now!",
   alternates: { canonical: `${SITE.url}/prices` },
 };
 

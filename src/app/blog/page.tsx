@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Blog | Dubai Desert Adventure Tips & Guides | Buggy Dubai Rental',
-  description: 'Expert tips, guides, and insider knowledge about dune buggy tours, quad biking, and desert safaris in Dubai. Plan the perfect desert adventure.',
+  title: "Blog | Dubai Desert Adventure Tips & Guides | Buggy Dubai Rental",
+  description: "Expert tips, guides, and insider knowledge about dune buggy tours, quad biking, and desert safaris in Dubai. Plan the perfect desert adventure.",
   alternates: { canonical: `${SITE.url}/blog` },
 };
 

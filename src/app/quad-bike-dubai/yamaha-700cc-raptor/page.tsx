@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Yamaha 700cc Raptor Quad Bike Dubai | Quad Bike Dubai | Buggy Dubai Rental",
-  description: \"Ride the legendary Yamaha 700cc Raptor — the most powerful sport ATV available for quad biking in Dubai's Al Badayer Desert. AED 500. Safety gear included. Book via WhatsApp.\",,
+  title: "Yamaha 700cc Raptor Quad Bike Dubai | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "Ride the legendary Yamaha 700cc Raptor — the most powerful sport ATV available for quad biking in Dubai's Al Badayer Desert. AED 500. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/yamaha-700cc-raptor` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Yamaha 700cc Raptor Quad Bike Dubai\"
-      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      breadcrumbParent={{ label: "Quad Bike Dubai", href: "/quad-bike-dubai" }}
       tagline=\"Ride the legendary Yamaha 700cc Raptor — the most powerful sport ATV available for quad biking in Dubai's Al Badayer Desert.\"
       price=\"AED 500\"
       duration=\"60 Minutes\"

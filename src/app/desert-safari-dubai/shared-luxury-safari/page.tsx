@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Shared Luxury Evening Safari Dubai | Desert Safari Dubai | Buggy Dubai Rental',
-  description: 'Step up to luxury — an enhanced shared desert safari experience with premium BBQ dinner, VIP seating area, and superior service for just AED 200 per person. Book via WhatsApp today.',
+  title: "Shared Luxury Evening Safari Dubai | Desert Safari Dubai | Buggy Dubai Rental",
+  description: "Step up to luxury — an enhanced shared desert safari experience with premium BBQ dinner, VIP seating area, and superior service for just AED 200 per person. Book via WhatsApp today.",
   alternates: { canonical: `${SITE.url}/desert-safari-dubai/shared-luxury-safari` },
 };
 export default function Page() {
@@ -31,7 +31,7 @@ export default function Page() {
       overview={[
         'The Shared Luxury Evening Safari is the premium tier of shared desert experience — everything in the standard evening safari, upgraded. The difference lies in the details: a higher-quality BBQ dinner with additional dishes and premium cuts, a dedicated VIP seating section within the desert camp, priority service, and enhanced entertainment options.',
         'For guests who want a superior experience without the full cost of a private booking, the Luxury Shared package strikes the ideal balance. You still benefit from meeting fellow travellers and enjoying the social atmosphere of a shared desert camp, while experiencing noticeably better food, service, and seating compared to the standard package. At AED 200 per person, it represents exceptional value.',
-        "Every guest at Buggy Dubai Rental's desert safaris receives personal attention from our experienced team. Safety, enjoyment, and cultural authenticity are the three pillars of every experience we deliver. For guests interested in combining a desert safari with self-drive adventure, explore our <a href=\"/dune-buggy-dubai\" style={{color: \"#e8611a\"}>dune buggy tours</a> and <a href=\"/quad-bike-dubai\" style={{color: \"#e8611a\"}>quad bike packages</a>.",
+        "Every guest at Buggy Dubai Rental's desert safaris receives personal attention from our experienced team. Safety, enjoyment, and cultural authenticity are the three pillars of every experience we deliver. For guests interested in combining a desert safari with self-drive adventure, explore our dune buggy tours and quad bike packages (links available in the sidebar).",
       ]}
       inclusions={['Shared 4WD dune bashing', 'Camel ride', 'Sandboarding', 'Henna art', 'Premium Arabian BBQ buffet (extended menu)', 'VIP seating area at the desert camp', 'Priority service throughout', 'Live cultural performances', 'Arabic coffee and dates', 'Complimentary refreshments', 'Return to meeting point']}
       exclusions={['Hotel pickup (available AED 300 per person)', 'Alcoholic beverages', 'Personal expenses']}

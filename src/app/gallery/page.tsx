@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Gallery | Dune Buggy Dubai Photos & Videos | Buggy Dubai Rental',
-  description: 'Browse photos and videos from our dune buggy tours, quad bike rides, and desert safari experiences in Dubai. See what awaits you in the Al Badayer Red Dunes.',
+  title: "Gallery | Dune Buggy Dubai Photos & Videos | Buggy Dubai Rental",
+  description: "Browse photos and videos from our dune buggy tours, quad bike rides, and desert safari experiences in Dubai. See what awaits you in the Al Badayer Red Dunes.",
   alternates: { canonical: `${SITE.url}/gallery` },
 };
 

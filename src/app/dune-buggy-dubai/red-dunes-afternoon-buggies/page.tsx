@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Red Dunes Afternoon Buggies | Dune Buggy Dubai | Buggy Dubai Rental",
-  description: \"Chase the golden hour across Dubai's crimson red dunes with dramatic sunset photography opportunities. AED 500 per buggy. All safety gear included. Book via WhatsApp.\",,
+  title: "Red Dunes Afternoon Buggies | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: "Chase the golden hour across Dubai's crimson red dunes with dramatic sunset photography opportunities. AED 500 per buggy. All safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/red-dunes-afternoon-buggies` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Red Dunes Afternoon Buggies\"
-      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      breadcrumbParent={{ label: "Dune Buggy Dubai", href: "/dune-buggy-dubai" }}
       tagline=\"Chase the golden hour across Dubai's crimson red dunes with dramatic sunset photography opportunities.\"
       price=\"AED 500\"
       duration=\"60 Minutes\"

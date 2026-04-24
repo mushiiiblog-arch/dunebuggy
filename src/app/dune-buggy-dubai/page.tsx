@@ -6,8 +6,8 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'Dune Buggy Dubai Tours | Self-Drive Desert Buggy Rides from AED 399',
-  description: 'Book the best dune buggy tours in Dubai. Self-drive Can-Am Maverick & Polaris RZR buggies across Al Badayer Red Dunes. 7 tour packages from AED 399. Morning, afternoon & night rides. Free sandboarding, camel ride & safety gear.',
+  title: "Dune Buggy Dubai Tours | Self-Drive Desert Buggy Rides from AED 399",
+  description: "Book the best dune buggy tours in Dubai. Self-drive Can-Am Maverick & Polaris RZR buggies across Al Badayer Red Dunes. 7 tour packages from AED 399. Morning, afternoon & night rides. Free sandboarding, camel ride & safety gear.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai` },
 };
 

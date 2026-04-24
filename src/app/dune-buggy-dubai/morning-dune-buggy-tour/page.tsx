@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Morning Dune Buggy Tour Dubai | Dune Buggy Dubai | Buggy Dubai Rental",
-  description: \"Beat the desert heat with a sunrise buggy adventure — the coolest and most serene way to experience Dubai's red dunes. AED 450. All safety gear included. Book via WhatsApp.\",,
+  title: "Morning Dune Buggy Tour Dubai | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: "Beat the desert heat with a sunrise buggy adventure — the coolest and most serene way to experience Dubai's red dunes. AED 450. All safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/morning-dune-buggy-tour` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Morning Dune Buggy Tour Dubai\"
-      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      breadcrumbParent={{ label: "Dune Buggy Dubai", href: "/dune-buggy-dubai" }}
       tagline=\"Beat the desert heat with a sunrise buggy adventure — the coolest and most serene way to experience Dubai's red dunes.\"
       price=\"AED 450\"
       duration=\"60 Minutes\"

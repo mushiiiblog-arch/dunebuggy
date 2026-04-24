@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'dubai desert adventure', 'buggy dubai rental', 'dune bashing dubai',
   ],
   openGraph: {
-    title: 'Dune Buggy Dubai | #1 Self-Drive Desert Buggy Tours | Buggy Dubai Rental',
+    title: "Dune Buggy Dubai | #1 Self-Drive Desert Buggy Tours | Buggy Dubai Rental",
     description:
       'Conquer Dubai\'s red dunes in a Can-Am Maverick or Polaris RZR. Self-drive dune buggy tours from AED 399. Book online with free cancellation.',
     url: SITE.url,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dune Buggy Dubai | Self-Drive Desert Tours from AED 399',
+    title: "Dune Buggy Dubai | Self-Drive Desert Tours from AED 399",
     description:
       'Book the #1 rated dune buggy tour in Dubai. Can-Am & Polaris buggies, professional guides, free cancellation.',
   },
@@ -94,7 +94,7 @@ const jsonLd = {
     {
       '@type': 'TouristTrip',
       name: 'Dune Buggy Dubai Tour',
-      description: 'Self-drive dune buggy tour across the red dunes of Al Badayer Desert, Dubai',
+      description: "Self-drive dune buggy tour across the red dunes of Al Badayer Desert, Dubai",
       touristType: ['Adventure Seekers', 'Families', 'Couples', 'Groups'],
       provider: { '@id': `${SITE.url}/#business` },
       offers: {

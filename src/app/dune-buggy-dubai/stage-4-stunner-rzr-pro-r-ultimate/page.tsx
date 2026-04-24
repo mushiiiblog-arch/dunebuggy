@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Stage 4 Stunner RZR PRO R | 4-Seater Family Buggy Dubai | AED 1,499',
-  description: 'The ultimate 4-seater family dune buggy in Dubai. Polaris RZR PRO R Ultimate EPS. 60 min, AED 1,499. Fits the whole family. Book via WhatsApp.',
+  title: "Stage 4 Stunner RZR PRO R | 4-Seater Family Buggy Dubai | AED 1,499",
+  description: "The ultimate 4-seater family dune buggy in Dubai. Polaris RZR PRO R Ultimate EPS. 60 min, AED 1,499. Fits the whole family. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/stage-4-stunner-rzr-pro-r-ultimate` },
 };
 export default function Page() {
@@ -67,7 +67,7 @@ export default function Page() {
       faqs={[
         { q: 'Can children ride in the Stage 4 Stunner?', a: 'Yes — children are welcome as passengers. The minimum driver age is 16 years. All passengers must wear the provided safety harness throughout the tour.' },
         { q: 'Is AED 1,499 per person or per vehicle?', a: 'AED 1,499 is per vehicle, which accommodates 4 passengers. That works out to approximately AED 375 per person — outstanding value for the flagship 4-seater experience.' },
-        { q: 'What makes it a "Stage 4" buggy?', a: 'Stage 4 refers to the level of suspension upgrade applied to the Polaris RZR PRO R. It includes longer-travel shocks, upgraded components, and tuning that provides race-level performance for desert conditions.' },
+        { q: "What makes it a 'Stage 4' buggy?", a: 'Stage 4 refers to the level of suspension upgrade applied to the Polaris RZR PRO R. It includes longer-travel shocks, upgraded components, and tuning that provides race-level performance for desert conditions.' },
         { q: 'Is it difficult to drive with 4 passengers?', a: 'Not at all. The EPS (Electronic Power Steering) makes the steering light and responsive regardless of load. Our pre-tour briefing prepares any driver within minutes.' },
       ]}
       relatedTours={[

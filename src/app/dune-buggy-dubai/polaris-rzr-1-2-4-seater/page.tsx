@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Polaris RZR Sport EPS Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental",
-  description: \"Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration. AED 500. All safety gear included. Book via WhatsApp.\",,
+  title: "Polaris RZR Sport EPS Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: "Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration. AED 500. All safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/polaris-rzr-1-2-4-seater` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Polaris RZR Sport EPS Buggy Tour\"
-      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      breadcrumbParent={{ label: "Dune Buggy Dubai", href: "/dune-buggy-dubai" }}
       tagline=\"Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration.\"
       price=\"AED 500\"
       duration=\"60 Minutes\"

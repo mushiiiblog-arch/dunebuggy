@@ -3,15 +3,15 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Desert Combo: Sharing Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental",
-  description: \"Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199. AED 199. Safety gear included. Book via WhatsApp.\",,
+  title: "Desert Combo: Sharing Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199. AED 199. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/desert-combo-safari-quad` },
 };
 export default function Page() {
   return (
     <TourPageLayout
       name=\"Desert Combo: Sharing Safari + Quad Bike\"
-      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      breadcrumbParent={{ label: "Quad Bike Dubai", href: "/quad-bike-dubai" }}
       tagline=\"Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199.\"
       price=\"AED 199\"
       duration=\"60 Minutes\"

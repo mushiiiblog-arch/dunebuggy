@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Desert Combo Safari + Dune Buggy Dubai | AED 399 | Best Value Package',
-  description: 'Best value Dubai desert combo — sharing evening safari PLUS 30-min self-drive dune buggy ride. AED 399 per person. BBQ dinner, shows, camel ride included.',
+  title: "Desert Combo Safari + Dune Buggy Dubai | AED 399 | Best Value Package",
+  description: "Best value Dubai desert combo — sharing evening safari PLUS 30-min self-drive dune buggy ride. AED 399 per person. BBQ dinner, shows, camel ride included.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/desert-combo-sharing-safari-dune-buggy` },
 };
 export default function Page() {

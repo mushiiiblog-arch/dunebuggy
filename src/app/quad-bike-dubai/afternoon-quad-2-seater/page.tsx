@@ -3,8 +3,8 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Afternoon Quad Bike Tour (2-Seater) | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'Share the golden-hour adventure — a 2-seater afternoon quad ride with breathtaking desert sunset views for couples and friends at AED 200. AED 200. Safety gear included. Book via WhatsApp.',
+  title: "Afternoon Quad Bike Tour (2-Seater) | Quad Bike Dubai | Buggy Dubai Rental",
+  description: "Share the golden-hour adventure — a 2-seater afternoon quad ride with breathtaking desert sunset views for couples and friends at AED 200. AED 200. Safety gear included. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/afternoon-quad-2-seater` },
 };
 export default function Page() {

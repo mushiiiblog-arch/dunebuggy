@@ -5,8 +5,8 @@ import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Can-Am Maverick R X RS "26 | Best Dune Buggy Dubai | Buggy Dubai Rental\",
-  description: \"Drive the 2026 Can-Am Maverick R X RS across Dubai's Al Badayer Red Dunes. Smart-Shox suspension, turbocharged 1000cc engine. AED 999 per buggy. Book via WhatsApp.\",
+  title: "Can-Am Maverick R X RS '26 | Best Dune Buggy Dubai | Buggy Dubai Rental",
+  description: "Drive the 2026 Can-Am Maverick R X RS across Dubai's Al Badayer Red Dunes. Smart-Shox suspension, turbocharged 1000cc engine. AED 999 per buggy. Book via WhatsApp.",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/can-am-maverick-r-x-rs-26` },
 };
 
