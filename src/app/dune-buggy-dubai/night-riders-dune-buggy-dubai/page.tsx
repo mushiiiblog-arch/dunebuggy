@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Night Riders: Dune Buggy Dubai Adventure | Dune Buggy Dubai | Buggy Dubai Rental',
-  description: 'Navigate Dubai's iconic red dunes after dark in an LED-illuminated buggy under a canopy of stars. AED 500 per buggy. All safety gear included. Book via WhatsApp.',
+  title: 'Night Riders: Dune Buggy Dubai Adventure | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: \"Navigate Dubai's iconic red dunes after dark in an LED-illuminated buggy under a canopy of stars. AED 500 per buggy. All safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/night-riders-dune-buggy-dubai` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Night Riders: Dune Buggy Dubai Adventure"
-      breadcrumbParent={{ label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' }}
-      tagline="Navigate Dubai's iconic red dunes after dark in an LED-illuminated buggy under a canopy of stars."
-      price="AED 500"
-      duration="60 Minutes"
-      seater="1, 2 & 4 Seater"
-      persons="1–4 Persons"
-      difficulty="All Levels"
-      heroImage="/images/tours/night-riders-card.webp"
-      galleryImages={['/images/tours/night-riders-card.webp','/images/tours/night-riders-gallery-1.webp','/images/tours/night-riders-gallery-2.webp','/images/tours/night-riders-gallery-3.webp','/images/tours/night-riders-gallery-4.webp']}
+      name=\"Night Riders: Dune Buggy Dubai Adventure\"
+      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      tagline=\"Navigate Dubai's iconic red dunes after dark in an LED-illuminated buggy under a canopy of stars.\"
+      price=\"AED 500\"
+      duration=\"60 Minutes\"
+      seater=\"1, 2 & 4 Seater\"
+      persons=\"1–4 Persons\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/tours/night-riders-card.webp\"
+      galleryImages={["/images/tours/night-riders-card.webp','/images/tours/night-riders-gallery-1.webp','/images/tours/night-riders-gallery-2.webp','/images/tours/night-riders-gallery-3.webp','/images/tours/night-riders-gallery-4.webp']}
       highlights={[
         'Self-drive a high-performance dune buggy across Dubai\'s iconic Al Badayer Red Dunes',
         'Available in 1-seater, 2-seater, and 4-seater configurations to suit any group size',

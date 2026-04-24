@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Desert Combo: Sharing Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199. AED 199. Safety gear included. Book via WhatsApp.',
+  title: 'Desert Combo: Sharing Safari + Quad Bike | Quad Bike Dubai | Buggy Dubai Rental",
+  description: \"Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199. AED 199. Safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/desert-combo-safari-quad` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Desert Combo: Sharing Safari + Quad Bike"
-      breadcrumbParent={{ label: 'Quad Bike Dubai', href: '/quad-bike-dubai' }}
-      tagline="Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199."
-      price="AED 199"
-      duration="60 Minutes"
-      seater="1-Seater"
-      persons="1 Person"
-      difficulty="All Levels"
-      heroImage="/images/quad/desert-combo-quad-card.webp"
-      galleryImages={['/images/quad/desert-combo-quad-gallery-1.webp', '/images/quad/desert-combo-quad-gallery-2.webp', '/images/quad/desert-combo-quad-gallery-3.webp', '/images/quad/desert-combo-quad-gallery-4.webp']}
+      name=\"Desert Combo: Sharing Safari + Quad Bike\"
+      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      tagline=\"Dubai's best-value desert combo — a full 6-hour evening safari including dune bashing and BBQ dinner PLUS a 60-minute quad bike ride, all for AED 199.\"
+      price=\"AED 199\"
+      duration=\"60 Minutes\"
+      seater=\"1-Seater\"
+      persons=\"1 Person\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/quad/desert-combo-quad-card.webp\"
+      galleryImages={["/images/quad/desert-combo-quad-gallery-1.webp', '/images/quad/desert-combo-quad-gallery-2.webp', '/images/quad/desert-combo-quad-gallery-3.webp', '/images/quad/desert-combo-quad-gallery-4.webp']}
       highlights={[
         'Self-drive a high-performance quad bike across the iconic Al Badayer Red Dunes of Dubai',
         '1-Seater ATV configuration — 1 Person adventure across the crimson desert landscape',
@@ -30,7 +30,7 @@ export default function Page() {
       ]}
       overview={[
         'The Desert Combo Safari and Quad package represents extraordinary value — two completely different desert experiences bundled into one evening for a single price. The evening safari portion covers all the classic Dubai desert experiences: thrilling 4x4 dune bashing with a professional driver, a traditional camel ride, sandboarding, henna painting, Arabic coffee and dates, BBQ dinner, and a spectacular cultural show.',
-        'The quad bike component adds a personal adventure dimension that sets this package apart from a standard safari. You take control of a 1-seater quad bike and self-navigate a 60-minute desert route under the guidance of our licensed instructor. For solo travellers and budget-conscious guests who want to experience everything Dubai's desert has to offer, this is the definitive package.',
+        "The quad bike component adds a personal adventure dimension that sets this package apart from a standard safari. You take control of a 1-seater quad bike and self-navigate a 60-minute desert route under the guidance of our licensed instructor. For solo travellers and budget-conscious guests who want to experience everything Dubai's desert has to offer, this is the definitive package.",
         'As with all our tours, the experience extends beyond just the ride. Complimentary refreshments at the desert camp, scenic photography stops across the most photogenic dune formations in the Al Badayer region, and the guidance of experienced desert professionals ensure your quad bike adventure is a complete experience from start to finish.',
       ]}
       inclusions={[

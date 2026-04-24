@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Early Bird Quad Bike Tour (2-Seater) | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'Share the sunrise desert adventure — a 2-seater early morning quad bike ride across Dubai's red dunes for couples and friends at just AED 200. AED 200. Safety gear included. Book via WhatsApp.',
+  title: 'Early Bird Quad Bike Tour (2-Seater) | Quad Bike Dubai | Buggy Dubai Rental",
+  description: \"Share the sunrise desert adventure — a 2-seater early morning quad bike ride across Dubai's red dunes for couples and friends at just AED 200. AED 200. Safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/early-bird-quad-2-seater` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Early Bird Quad Bike Tour (2-Seater)"
-      breadcrumbParent={{ label: 'Quad Bike Dubai', href: '/quad-bike-dubai' }}
-      tagline="Share the sunrise desert adventure — a 2-seater early morning quad bike ride across Dubai's red dunes for couples and friends at just AED 200."
-      price="AED 200"
-      duration="60 Minutes"
-      seater="2-Seater"
-      persons="2 Persons"
-      difficulty="All Levels"
-      heroImage="/images/quad/early-bird-quad-card.webp"
-      galleryImages={['/images/quad/early-bird-quad-gallery-1.webp', '/images/quad/early-bird-quad-gallery-2.webp', '/images/quad/early-bird-quad-gallery-3.webp']}
+      name=\"Early Bird Quad Bike Tour (2-Seater)\"
+      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      tagline=\"Share the sunrise desert adventure — a 2-seater early morning quad bike ride across Dubai's red dunes for couples and friends at just AED 200.\"
+      price=\"AED 200\"
+      duration=\"60 Minutes\"
+      seater=\"2-Seater\"
+      persons=\"2 Persons\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/quad/early-bird-quad-card.webp\"
+      galleryImages={["/images/quad/early-bird-quad-gallery-1.webp', '/images/quad/early-bird-quad-gallery-2.webp', '/images/quad/early-bird-quad-gallery-3.webp']}
       highlights={[
         'Self-drive a high-performance quad bike across the iconic Al Badayer Red Dunes of Dubai',
         '2-Seater ATV configuration — 2 Persons adventure across the crimson desert landscape',

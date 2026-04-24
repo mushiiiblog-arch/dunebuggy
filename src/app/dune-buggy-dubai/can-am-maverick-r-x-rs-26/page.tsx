@@ -5,15 +5,15 @@ import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Can-Am Maverick R X RS '26 | Best Dune Buggy Dubai | Buggy Dubai Rental",
-  description: "Drive the 2026 Can-Am Maverick R X RS across Dubai's Al Badayer Red Dunes. Smart-Shox suspension, turbocharged 1000cc engine. AED 999 per buggy. Book via WhatsApp.",
+  title: "Can-Am Maverick R X RS "26 | Best Dune Buggy Dubai | Buggy Dubai Rental\",
+  description: \"Drive the 2026 Can-Am Maverick R X RS across Dubai's Al Badayer Red Dunes. Smart-Shox suspension, turbocharged 1000cc engine. AED 999 per buggy. Book via WhatsApp.\",
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/can-am-maverick-r-x-rs-26` },
 };
 
 export default function Page() {
   return (
     <TourPageLayout
-      name="Can-Am Maverick R X RS '26 Dune Buggy Tour"
+      name=\"Can-Am Maverick R X RS "26 Dune Buggy Tour"
       breadcrumbParent={{ label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' }}
       tagline="Experience the most powerful self-drive buggy in Dubai — the 2026 Can-Am Maverick R X RS with Smart-Shox suspension."
       price="AED 999"
@@ -28,23 +28,23 @@ export default function Page() {
         '/images/tours/canam-rxrs-gallery-2.webp',
         '/images/tours/canam-rxrs-gallery-3.webp',
         '/images/tours/canam-rxrs-gallery-4.webp',
-        '/images/tours/canam-rxrs-gallery-5.webp',
+        '/images/tours/canam-rxrs-gallery-5.webp",
       ]}
       highlights={[
-        "Drive the brand-new 2026 Can-Am Maverick R X RS — the most advanced dune buggy in Dubai's fleet",
-        'Smart-Shox semi-active suspension adapts in real-time to the desert terrain for the smoothest possible ride',
+        \"Drive the brand-new 2026 Can-Am Maverick R X RS — the most advanced dune buggy in Dubai's fleet\",
+        "Smart-Shox semi-active suspension adapts in real-time to the desert terrain for the smoothest possible ride',
         'Turbocharged 1000cc+ engine delivers explosive acceleration across towering Al Badayer red sand dunes',
         'Suitable for complete beginners — fully automatic transmission with comprehensive safety briefing',
         'Includes sandboarding, camel ride, and multiple scenic photo stops in the Arabian desert',
         'Available in morning, afternoon, and night departures to suit every schedule and preference',
       ]}
       overview={[
-        "The Can-Am Maverick R X RS '26 represents the absolute pinnacle of dune buggy technology available in Dubai. Featuring the revolutionary Smart-Shox semi-active suspension system, this 2026 flagship model continuously monitors terrain and adjusts damping in real-time, delivering a ride quality that is simultaneously thrilling and controlled. Whether you are attacking a 100-metre dune face or cruising through a desert wadi, the Maverick R X RS responds with precision.",
-        "Your 60-minute adventure begins with a comprehensive safety and vehicle briefing from our licensed desert guides. The Al Badayer Desert — Dubai's iconic Red Dunes region, located approximately 50 kilometres from the city centre — provides a spectacular backdrop of crimson sand formations unlike anywhere else on Earth. The route includes a mix of open flat sections for speed, steep dune faces for adrenaline, and ridge-top viewpoints for unforgettable panoramic photographs.",
-        "All participants receive certified helmets, professional goggles, and any other protective equipment necessary. After your buggy ride, enjoy traditional Arabian desert activities including sandboarding down the dunes, a short camel ride, and Arabic coffee and dates at our desert camp. This tour is the finest 1-seater or 2-seater dune buggy experience available in the UAE.",
+        "The Can-Am Maverick R X RS "26 represents the absolute pinnacle of dune buggy technology available in Dubai. Featuring the revolutionary Smart-Shox semi-active suspension system, this 2026 flagship model continuously monitors terrain and adjusts damping in real-time, delivering a ride quality that is simultaneously thrilling and controlled. Whether you are attacking a 100-metre dune face or cruising through a desert wadi, the Maverick R X RS responds with precision.\",
+        \"Your 60-minute adventure begins with a comprehensive safety and vehicle briefing from our licensed desert guides. The Al Badayer Desert — Dubai's iconic Red Dunes region, located approximately 50 kilometres from the city centre — provides a spectacular backdrop of crimson sand formations unlike anywhere else on Earth. The route includes a mix of open flat sections for speed, steep dune faces for adrenaline, and ridge-top viewpoints for unforgettable panoramic photographs.\",
+        \"All participants receive certified helmets, professional goggles, and any other protective equipment necessary. After your buggy ride, enjoy traditional Arabian desert activities including sandboarding down the dunes, a short camel ride, and Arabic coffee and dates at our desert camp. This tour is the finest 1-seater or 2-seater dune buggy experience available in the UAE.\",
       ]}
       inclusions={[
-        '60-minute self-drive Can-Am Maverick R X RS 2026 buggy ride',
+        "60-minute self-drive Can-Am Maverick R X RS 2026 buggy ride',
         'Certified helmet and professional goggles',
         'Licensed desert guide throughout the tour',
         'Comprehensive safety briefing and vehicle orientation',

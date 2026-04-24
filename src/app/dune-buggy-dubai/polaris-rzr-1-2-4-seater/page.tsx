@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Polaris RZR Sport EPS Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental',
-  description: 'Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration. AED 500. All safety gear included. Book via WhatsApp.',
+  title: 'Polaris RZR Sport EPS Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: \"Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration. AED 500. All safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/polaris-rzr-1-2-4-seater` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Polaris RZR Sport EPS Buggy Tour"
-      breadcrumbParent={{ label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' }}
-      tagline="Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration."
-      price="AED 500"
-      duration="60 Minutes"
-      seater="1, 2 & 4 Seater"
-      persons="1–4 Persons"
-      difficulty="All Levels"
-      heroImage="/images/tours/stage4-stunner-card.webp"
-      galleryImages={['/images/tours/stage4-stunner-card.webp','/images/tours/stage4-gallery-1.webp','/images/tours/stage4-gallery-2.webp','/images/tours/stage4-gallery-3.webp','/images/tours/stage4-gallery-4.webp']}
+      name=\"Polaris RZR Sport EPS Buggy Tour\"
+      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      tagline=\"Drive the iconic Polaris RZR Sport EPS 1000cc across Dubai's Al Badayer Desert in your choice of 1, 2, or 4-seater configuration.\"
+      price=\"AED 500\"
+      duration=\"60 Minutes\"
+      seater=\"1, 2 & 4 Seater\"
+      persons=\"1–4 Persons\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/tours/stage4-stunner-card.webp\"
+      galleryImages={["/images/tours/stage4-stunner-card.webp','/images/tours/stage4-gallery-1.webp','/images/tours/stage4-gallery-2.webp','/images/tours/stage4-gallery-3.webp','/images/tours/stage4-gallery-4.webp']}
       highlights={[
         'Self-drive a high-performance dune buggy across the iconic Al Badayer Red Dunes of Dubai',
         'Available in 1-seater, 2-seater, and 4-seater configurations for any group size',

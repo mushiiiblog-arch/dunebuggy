@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Yamaha 700cc Raptor + Shared Transfer | Quad Bike Dubai | Buggy Dubai Rental',
-  description: 'The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience. AED 750. Safety gear included. Book via WhatsApp.',
+  title: 'Yamaha 700cc Raptor + Shared Transfer | Quad Bike Dubai | Buggy Dubai Rental",
+  description: \"The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience. AED 750. Safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/quad-bike-dubai/yamaha-raptor-transfer` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Yamaha 700cc Raptor + Shared Transfer"
-      breadcrumbParent={{ label: 'Quad Bike Dubai', href: '/quad-bike-dubai' }}
-      tagline="The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience."
-      price="AED 750"
-      duration="60 Minutes"
-      seater="1-Seater"
-      persons="1 Person"
-      difficulty="All Levels"
-      heroImage="/images/quad/yamaha-raptor-transfer-card.webp"
-      galleryImages={['/images/quad/yamaha-raptor-gallery-1.webp', '/images/quad/yamaha-raptor-gallery-2.webp', '/images/quad/yamaha-raptor-gallery-3.webp', '/images/quad/yamaha-raptor-gallery-4.webp']}
+      name=\"Yamaha 700cc Raptor + Shared Transfer\"
+      breadcrumbParent={{ label: "Quad Bike Dubai', href: '/quad-bike-dubai" }}
+      tagline=\"The premium complete package — ride the legendary Yamaha 700cc Raptor across Dubai's red dunes with hotel transfer included for ultimate convenience.\"
+      price=\"AED 750\"
+      duration=\"60 Minutes\"
+      seater=\"1-Seater\"
+      persons=\"1 Person\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/quad/yamaha-raptor-transfer-card.webp\"
+      galleryImages={["/images/quad/yamaha-raptor-gallery-1.webp', '/images/quad/yamaha-raptor-gallery-2.webp', '/images/quad/yamaha-raptor-gallery-3.webp', '/images/quad/yamaha-raptor-gallery-4.webp']}
       highlights={[
         'Self-drive a high-performance quad bike across the iconic Al Badayer Red Dunes of Dubai',
         '1-Seater ATV configuration — 1 Person adventure across the crimson desert landscape',

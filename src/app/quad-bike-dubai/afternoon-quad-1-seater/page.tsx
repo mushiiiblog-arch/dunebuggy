@@ -29,8 +29,8 @@ export default function Page() {
         'Easy WhatsApp booking with no advance payment — pay at the desert camp',
       ]}
       overview={[
-        'The Afternoon 1-Seater Quad Bike Tour is specifically timed to coincide with Dubai's golden hour — the magical period between 4 PM and sunset when the red dunes glow with extraordinary warmth and colour. For photography enthusiasts and sunset lovers, this is the definitive quad biking experience. The slanting afternoon light creates dramatic shadows across the dune formations that simply do not exist at other times.',
-        'Solo riders gain complete freedom on a 1-seater ATV, exploring the desert terrain at their own pace under the guidance of our licensed instructor. The Al Badayer region's varied landscape — from open flats perfect for speed to technical dune climbs and descents — ensures the 60-minute session is consistently engaging throughout.',
+        "The Afternoon 1-Seater Quad Bike Tour is specifically timed to coincide with Dubai's golden hour — the magical period between 4 PM and sunset when the red dunes glow with extraordinary warmth and colour. For photography enthusiasts and sunset lovers, this is the definitive quad biking experience. The slanting afternoon light creates dramatic shadows across the dune formations that simply do not exist at other times.",
+        "Solo riders gain complete freedom on a 1-seater ATV, exploring the desert terrain at their own pace under the guidance of our licensed instructor. The Al Badayer region's varied landscape — from open flats perfect for speed to technical dune climbs and descents — ensures the 60-minute session is consistently engaging throughout.",
         'As with all our tours, the experience extends beyond just the ride. Complimentary refreshments at the desert camp, scenic photography stops across the most photogenic dune formations in the Al Badayer region, and the guidance of experienced desert professionals ensure your quad bike adventure is a complete experience from start to finish.',
       ]}
       inclusions={[

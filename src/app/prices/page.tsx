@@ -7,7 +7,7 @@ export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: 'Prices | Dune Buggy, Quad Bike & Desert Safari Pricing | Buggy Dubai Rental',
-  description: 'Complete pricing guide for dune buggy tours, quad bike rentals, and desert safari packages in Dubai. Transparent rates from AED 150 to AED 1,499. No hidden fees. Book now!',
+  description: 'Complete pricing guide for dune buggy tours, quad bike rentals, and desert safari packages in Dubai. Transparent rates from AED 150 to AED 1,499. No hidden fees. Book now!",
   alternates: { canonical: `${SITE.url}/prices` },
 };
 
@@ -15,36 +15,36 @@ export default function PricesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-32 pb-20 md:pt-44 md:pb-28 bg-gradient-to-br from-brand-dark via-[#16213E] to-[#0F3460] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <nav className="breadcrumb-nav text-sm text-white/50 mb-6">
-            <Link href="/">Home</Link> <span className="mx-2">/</span>
-            <span className="text-brand-orange">Prices</span>
+      <section className=\"relative pt-32 pb-20 md:pt-44 md:pb-28 bg-gradient-to-br from-brand-dark via-[#16213E] to-[#0F3460] overflow-hidden\">
+        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10\">
+          <nav className=\"breadcrumb-nav text-sm text-white/50 mb-6\">
+            <Link href=\"/\">Home</Link> <span className=\"mx-2\">/</span>
+            <span className=\"text-brand-orange\">Prices</span>
           </nav>
-          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
+          <h1 className=\"font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6\">
             Tour Prices & Packages
           </h1>
-          <p className="text-white/60 text-lg md:text-xl max-w-3xl leading-relaxed">
+          <p className=\"text-white/60 text-lg md:text-xl max-w-3xl leading-relaxed\">
             Transparent pricing for all dune buggy tours, quad bike rentals, and desert safari packages. No hidden fees, no surprise charges.
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 100" fill="none" preserveAspectRatio="none" className="w-full h-16 md:h-24">
-            <path d="M0 100V60C200 30 400 10 600 20C800 30 1000 60 1200 50C1400 40 1440 50 1440 50V100H0Z" fill="#FEFCF6"/>
+        <div className=\"absolute bottom-0 left-0 right-0\">
+          <svg viewBox=\"0 0 1440 100\" fill=\"none\" preserveAspectRatio=\"none\" className=\"w-full h-16 md:h-24\">
+            <path d=\"M0 100V60C200 30 400 10 600 20C800 30 1000 60 1200 50C1400 40 1440 50 1440 50V100H0Z\" fill=\"#FEFCF6\"/>
           </svg>
         </div>
       </section>
 
       {/* Intro */}
-      <section className="py-12 bg-brand-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className=\"py-12 bg-brand-cream\">
+        <div className=\"max-w-4xl mx-auto px-4 sm:px-6 lg:px-8\">
           <AnimateOnScroll>
-            <div className="text-center">
-              <p className="text-gray-600 leading-relaxed mb-4">
-                At Buggy Dubai Rental, we believe in transparent pricing with no hidden costs. All our <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">dune buggy tour</a> packages include safety gear, professional guides, refreshments, and desert activities like sandboarding and camel rides.
+            <div className=\"text-center\">
+              <p className=\"text-gray-600 leading-relaxed mb-4\">
+                At Buggy Dubai Rental, we believe in transparent pricing with no hidden costs. All our <a href={SITE.partnerLink} className=\"text-brand-orange font-semibold hover:underline\">dune buggy tour</a> packages include safety gear, professional guides, refreshments, and desert activities like sandboarding and camel rides.
               </p>
-              <p className="text-gray-600 leading-relaxed">
-                Need help choosing? <Link href="/how-to-book" className="text-brand-orange font-semibold hover:underline">Learn how to book</Link> or <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="text-brand-orange font-semibold hover:underline">chat with us on WhatsApp</a>.
+              <p className=\"text-gray-600 leading-relaxed\">
+                Need help choosing? <Link href=\"/how-to-book\" className=\"text-brand-orange font-semibold hover:underline\">Learn how to book</Link> or <a href={SITE.whatsapp} target=\"_blank\" rel=\"noopener noreferrer\" className=\"text-brand-orange font-semibold hover:underline\">chat with us on WhatsApp</a>.
               </p>
             </div>
           </AnimateOnScroll>
@@ -52,30 +52,30 @@ export default function PricesPage() {
       </section>
 
       {/* Dune Buggy Prices */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className=\"py-20 bg-white\">
+        <div className=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">
           <AnimateOnScroll>
-            <h2 className="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-3 text-center">Dune Buggy Rental Packages</h2>
-            <p className="text-gray-600 text-center mb-10 max-w-3xl mx-auto">
-              Experience the thrill of self-drive dune buggy adventures in Dubai's Al Badayer Desert. Our fleet includes the latest Can-Am Maverick and Polaris RZR models with automatic transmission, making them perfect for both beginners and experienced riders. Each <a href={SITE.partnerLink} className="text-brand-orange font-semibold hover:underline">buggy ride Dubai</a> package includes comprehensive safety equipment, professional desert guide, refreshments, sandboarding, and camel riding opportunities.
+            <h2 className=\"font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-3 text-center\">Dune Buggy Rental Packages</h2>
+            <p className=\"text-gray-600 text-center mb-10 max-w-3xl mx-auto\">
+              Experience the thrill of self-drive dune buggy adventures in Dubai's Al Badayer Desert. Our fleet includes the latest Can-Am Maverick and Polaris RZR models with automatic transmission, making them perfect for both beginners and experienced riders. Each <a href={SITE.partnerLink} className=\"text-brand-orange font-semibold hover:underline\">buggy ride Dubai</a> package includes comprehensive safety equipment, professional desert guide, refreshments, sandboarding, and camel riding opportunities.
             </p>
           </AnimateOnScroll>
 
           <AnimateOnScroll delay={100}>
-            <div className="overflow-x-auto">
-              <table className="w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm">
-                <thead className="bg-brand-dark text-white">
+            <div className=\"overflow-x-auto\">
+              <table className=\"w-full bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-sm\">
+                <thead className=\"bg-brand-dark text-white\">
                   <tr>
-                    <th className="px-6 py-4 text-left font-bold">Package Name</th>
-                    <th className="px-6 py-4 text-left font-bold">Seater Type</th>
-                    <th className="px-6 py-4 text-left font-bold">Persons</th>
-                    <th className="px-6 py-4 text-left font-bold">Duration</th>
-                    <th className="px-6 py-4 text-right font-bold">Price</th>
+                    <th className=\"px-6 py-4 text-left font-bold\">Package Name</th>
+                    <th className=\"px-6 py-4 text-left font-bold\">Seater Type</th>
+                    <th className=\"px-6 py-4 text-left font-bold\">Persons</th>
+                    <th className=\"px-6 py-4 text-left font-bold\">Duration</th>
+                    <th className=\"px-6 py-4 text-right font-bold\">Price</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-gray-100 hover:bg-brand-cream/30 transition-colors">
-                    <td className="px-6 py-4 font-semibold text-brand-dark">Can-Am Maverick R X RS '26</td>
+                  <tr className=\"border-b border-gray-100 hover:bg-brand-cream/30 transition-colors\">
+                    <td className=\"px-6 py-4 font-semibold text-brand-dark\">Can-Am Maverick R X RS "26</td>
                     <td className="px-6 py-4 text-gray-600">2-4 seater</td>
                     <td className="px-6 py-4 text-gray-600">2-4 persons</td>
                     <td className="px-6 py-4 text-gray-600">60 Min Buggy Ride</td>

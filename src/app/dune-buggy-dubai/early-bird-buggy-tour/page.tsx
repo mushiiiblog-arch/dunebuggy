@@ -3,23 +3,23 @@ import TourPageLayout from '@/components/TourPageLayout';
 import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 export const metadata: Metadata = {
-  title: 'Early Bird Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental',
-  description: 'Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views. AED 500 per buggy. All safety gear included. Book via WhatsApp.',
+  title: 'Early Bird Buggy Tour | Dune Buggy Dubai | Buggy Dubai Rental",
+  description: \"Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views. AED 500 per buggy. All safety gear included. Book via WhatsApp.\",,
   alternates: { canonical: `${SITE.url}/dune-buggy-dubai/early-bird-buggy-tour` },
 };
 export default function Page() {
   return (
     <TourPageLayout
-      name="Early Bird Buggy Tour"
-      breadcrumbParent={{ label: 'Dune Buggy Dubai', href: '/dune-buggy-dubai' }}
-      tagline="Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views."
-      price="AED 500"
-      duration="60 Minutes"
-      seater="1, 2 & 4 Seater"
-      persons="1–4 Persons"
-      difficulty="All Levels"
-      heroImage="/images/tours/early-bird-card.webp"
-      galleryImages={['/images/tours/early-bird-card.webp','/images/tours/early-bird-gallery-1.webp','/images/tours/early-bird-gallery-2.webp','/images/tours/early-bird-gallery-3.webp','/images/tours/early-bird-gallery-4.webp']}
+      name=\"Early Bird Buggy Tour\"
+      breadcrumbParent={{ label: "Dune Buggy Dubai', href: '/dune-buggy-dubai" }}
+      tagline=\"Sunrise desert adventure — experience Dubai's red dunes in cool morning light with breathtaking golden sunrise views.\"
+      price=\"AED 500\"
+      duration=\"60 Minutes\"
+      seater=\"1, 2 & 4 Seater\"
+      persons=\"1–4 Persons\"
+      difficulty=\"All Levels\"
+      heroImage=\"/images/tours/early-bird-card.webp\"
+      galleryImages={["/images/tours/early-bird-card.webp','/images/tours/early-bird-gallery-1.webp','/images/tours/early-bird-gallery-2.webp','/images/tours/early-bird-gallery-3.webp','/images/tours/early-bird-gallery-4.webp']}
       highlights={[
         'Self-drive a high-performance dune buggy across Dubai\'s iconic Al Badayer Red Dunes',
         'Available in 1-seater, 2-seater, and 4-seater configurations to suit any group size',
