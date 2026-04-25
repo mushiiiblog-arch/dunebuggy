@@ -38,6 +38,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'Experience raw power with the 2026 Can-Am Maverick R X RS featuring Smart-Shox suspension technology across Dubai\'s towering red dunes.',
     features: ['Smart-Shox Suspension', 'Turbocharged Engine', '2026 Model', 'Automatic Transmission', 'Full Safety Gear'],
     image: '/images/tours/canam-rxrs-card.webp',
+    imageAlt: "Can-Am Maverick R X RS '26",
     gallery: ['/images/tours/canam-rxrs-gallery-1.webp','/images/tours/canam-rxrs-gallery-2.webp','/images/tours/canam-rxrs-gallery-3.webp','/images/tours/canam-rxrs-gallery-4.webp','/images/tours/canam-rxrs-gallery-5.webp'],
   },
   {
@@ -57,6 +58,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'The Can-Am Maverick XRS combines agility with power for an incredible desert driving experience. Perfect for couples and small groups seeking thrills at great value.',
     features: ['Advanced Suspension', '1000cc+ Engine', 'Automatic Transmission', 'Full Safety Gear'],
     image: '/images/tours/canam-xrs-card.webp',
+    imageAlt: 'Can-Am Maverick XRS 26',
     gallery: ['/images/tours/canam-xrs-gallery-1.webp','/images/tours/canam-xrs-gallery-2.webp','/images/tours/canam-xrs-gallery-3.webp','/images/tours/canam-xrs-gallery-4.webp','/images/tours/canam-xrs-gallery-5.webp'],
   },
   {
@@ -76,6 +78,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'The ultimate family and group adventure machine. The Polaris RZR PRO R Ultimate EPS seats 4 comfortably and conquers every dune with extreme power.',
     features: ['4-Seater Capacity', 'EPS Power Steering', 'Pro-Level Suspension', 'LED Light Bar'],
     image: '/images/tours/stage4-stunner-card.webp',
+    imageAlt: 'Stage 4 Stunner RZR PRO R Ultimate EPS',
     gallery: ['/images/tours/stage4-gallery-1.webp','/images/tours/stage4-gallery-2.webp','/images/tours/stage4-gallery-3.webp','/images/tours/stage4-gallery-4.webp'],
   },
   {
@@ -95,6 +98,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'The perfect introduction to Dubai\'s desert. Combine a shared desert safari experience with a 30-minute self-drive dune buggy ride.',
     features: ['Safari + Buggy Combo', 'Best Entry Price', 'Shared Experience', 'Ideal for Solo'],
     image: '/images/tours/desert-combo-card.webp',
+    imageAlt: 'Desert Combo Sharing Safari Dune Buggy Dubai',
     gallery: ['/images/tours/desert-combo-gallery-1.webp','/images/tours/desert-combo-gallery-2.webp','/images/tours/desert-combo-gallery-3.webp','/images/tours/desert-combo-gallery-4.webp'],
   },
   {
@@ -114,6 +118,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'Rise with the desert sun and experience the dunes in cool morning light with stunning sunrise views.',
     features: ['Sunrise Views', 'Cooler Temperature', 'Morning Light Photos', 'Flexible Seating'],
     image: '/images/tours/early-bird-card.webp',
+    imageAlt: 'Early Bird Buggy Tour Dubai',
     gallery: ['/images/tours/early-bird-gallery-1.webp','/images/tours/early-bird-gallery-2.webp','/images/tours/early-bird-gallery-3.webp','/images/tours/early-bird-gallery-4.webp'],
   },
   {
@@ -133,6 +138,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'Experience the desert after dark on a thrilling LED-illuminated night ride under a canopy of stars.',
     features: ['LED Light Bars', 'Starlit Desert', 'Night Navigation', 'Cool Evening Ride'],
     image: '/images/tours/night-riders-card.webp',
+    imageAlt: 'Night Riders Dune Buggy Dubai',
     gallery: ['/images/tours/night-riders-gallery-1.webp','/images/tours/night-riders-gallery-2.webp','/images/tours/night-riders-gallery-3.webp','/images/tours/night-riders-gallery-4.webp'],
   },
   {
@@ -152,6 +158,7 @@ export const DUNE_BUGGY_TOURS = [
     description: 'Chase the golden hour across crimson dunes with dramatic sunset views and warm desert light.',
     features: ['Golden Hour Light', 'Sunset Photography', 'Red Dune Terrain', 'Iconic Views'],
     image: '/images/tours/red-dunes-card.webp',
+    imageAlt: 'Red Dunes Afternoon Buggies',
     gallery: ['/images/tours/red-dunes-gallery-1.webp','/images/tours/red-dunes-gallery-2.webp','/images/tours/red-dunes-gallery-3.webp','/images/tours/red-dunes-gallery-4.webp'],
   },
   {
@@ -170,7 +177,8 @@ export const DUNE_BUGGY_TOURS = [
     badgeColor: 'blue',
     description: 'Complete package with shared hotel transfer included. Perfect for those without transport.',
     features: ['Hotel Transfer Included', 'Red Dune Terrain', '60-Min Self-Drive', 'All Safety Gear'],
-    image: '/images/tours/red-dunes-card.webp',
+    image: '/images/tours/red-dunes-transfer-card.webp',
+    imageAlt: 'Red Dunes Buggy Ride and Shared Transfer Dubai',
     gallery: ['/images/tours/red-dunes-gallery-1.webp','/images/tours/red-dunes-gallery-2.webp','/images/tours/red-dunes-gallery-3.webp'],
   },
   {
@@ -189,7 +197,8 @@ export const DUNE_BUGGY_TOURS = [
     badgeColor: 'teal',
     description: 'Polaris RZR Sport EPS 1000cc with flexible seating options for solo riders, couples, or families.',
     features: ['1000cc Engine', 'EPS Power Steering', 'Multiple Seating Options', 'Sport Suspension'],
-    image: '/images/tours/stage4-stunner-card.webp',
+    image: '/images/tours/polaris-rzr-card.webp',
+    imageAlt: 'Polaris RZR 1 2 4 Seater Buggy Tour',
     gallery: ['/images/tours/stage4-gallery-1.webp','/images/tours/stage4-gallery-2.webp','/images/tours/stage4-gallery-3.webp','/images/tours/stage4-gallery-4.webp'],
   },
 ];
@@ -216,6 +225,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Experience the legendary Yamaha 700cc Raptor quad bike - the ultimate high-performance ATV for desert riding.',
     features: ['700cc Engine', 'Sport Suspension', 'Professional Guide', 'Safety Gear Included'],
     image: '/images/quad/yamaha-raptor-card.webp',
+    imageAlt: 'Yamaha 700cc Raptor Quad Bike',
     gallery: ['/images/quad/yamaha-raptor-gallery-1.webp','/images/quad/yamaha-raptor-gallery-2.webp','/images/quad/yamaha-raptor-gallery-3.webp','/images/quad/yamaha-raptor-gallery-4.webp'],
   },
   {
@@ -235,6 +245,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Best value package combining sharing desert safari with quad bike experience.',
     features: ['Safari Included', 'Quad Bike Ride', 'BBQ Dinner', 'Best Price'],
     image: '/images/quad/desert-combo-quad-card.webp',
+    imageAlt: 'Desert Combo Safari Quad Bike',
     gallery: ['/images/quad/desert-combo-quad-gallery-1.webp','/images/quad/desert-combo-quad-gallery-2.webp','/images/quad/desert-combo-quad-gallery-3.webp','/images/quad/desert-combo-quad-gallery-4.webp'],
   },
   {
@@ -254,6 +265,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Solo morning quad bike adventure in cool desert temperatures with stunning sunrise views.',
     features: ['Sunrise Ride', 'Cool Temperature', '1-Seater Quad', 'Solo Adventure'],
     image: '/images/quad/early-bird-quad-card.webp',
+    imageAlt: 'Early Bird Quad Bike Tour',
     gallery: ['/images/quad/early-bird-quad-gallery-1.webp','/images/quad/early-bird-quad-gallery-2.webp','/images/quad/early-bird-quad-gallery-3.webp'],
   },
   {
@@ -273,6 +285,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Couple morning quad bike adventure sharing one ATV for a memorable sunrise desert experience.',
     features: ['Sunrise Ride', 'Cool Temperature', '2-Seater Quad', 'Couple Adventure'],
     image: '/images/quad/early-bird-quad-card.webp',
+    imageAlt: 'Early Bird Quad Bike Tour',
     gallery: ['/images/quad/early-bird-quad-gallery-1.webp','/images/quad/early-bird-quad-gallery-2.webp','/images/quad/early-bird-quad-gallery-3.webp'],
   },
   {
@@ -292,6 +305,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Solo afternoon quad biking with golden-hour sunset photography opportunities.',
     features: ['Sunset Views', 'Golden Hour', '1-Seater Quad', 'Photo Stops'],
     image: '/images/quad/afternoon-quad-card.webp',
+    imageAlt: 'Afternoon Quad Bike Tour',
     gallery: ['/images/quad/afternoon-quad-gallery-1.webp','/images/quad/afternoon-quad-gallery-2.webp','/images/quad/afternoon-quad-gallery-3.webp','/images/quad/afternoon-quad-gallery-4.webp'],
   },
   {
@@ -311,6 +325,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Couple afternoon quad adventure with stunning sunset views across the red dunes.',
     features: ['Sunset Views', 'Golden Hour', '2-Seater Quad', 'Romantic Ride'],
     image: '/images/quad/afternoon-quad-card.webp',
+    imageAlt: 'Afternoon Quad Bike Tour',
     gallery: ['/images/quad/afternoon-quad-gallery-1.webp','/images/quad/afternoon-quad-gallery-2.webp','/images/quad/afternoon-quad-gallery-3.webp','/images/quad/afternoon-quad-gallery-4.webp'],
   },
   {
@@ -330,6 +345,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Complete package with hotel transfer and solo quad bike adventure.',
     features: ['Hotel Transfer', 'Red Dunes Terrain', '1-Seater Quad', 'All-Inclusive'],
     image: '/images/quad/red-dunes-quad-card.webp',
+    imageAlt: 'Red Dunes Quad Tour with Transfer',
     gallery: ['/images/quad/red-dunes-quad-gallery-1.webp','/images/quad/red-dunes-quad-gallery-2.webp','/images/quad/red-dunes-quad-gallery-3.webp'],
   },
   {
@@ -349,6 +365,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Complete package with hotel transfer and couple quad bike adventure.',
     features: ['Hotel Transfer', 'Red Dunes Terrain', '2-Seater Quad', 'All-Inclusive'],
     image: '/images/quad/red-dunes-quad-card.webp',
+    imageAlt: 'Red Dunes Quad Tour with Transfer',
     gallery: ['/images/quad/red-dunes-quad-gallery-1.webp','/images/quad/red-dunes-quad-gallery-2.webp','/images/quad/red-dunes-quad-gallery-3.webp'],
   },
   {
@@ -368,6 +385,7 @@ export const QUAD_BIKE_TOURS = [
     description: 'Premium Yamaha Raptor experience with hotel transfer included for ultimate convenience.',
     features: ['Hotel Transfer', '700cc Yamaha', 'Premium Experience', 'All-Inclusive'],
     image: '/images/quad/yamaha-raptor-transfer-card.webp',
+    imageAlt: 'Yamaha 700cc Raptor with Transfer',
     gallery: ['/images/quad/yamaha-raptor-gallery-1.webp','/images/quad/yamaha-raptor-gallery-2.webp','/images/quad/yamaha-raptor-gallery-3.webp'],
   },
 ];
@@ -394,6 +412,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Most affordable evening safari with BBQ dinner, dune bashing, and cultural shows.',
     features: ['Dune Bashing', 'BBQ Dinner', 'Live Shows', 'Camel Ride', 'Sandboarding'],
     image: '/images/tours/desert-combo-card.webp',
+    imageAlt: 'Desert Combo Sharing Safari Dune Buggy Dubai',
     gallery: ['/images/tours/desert-combo-gallery-1.webp','/images/tours/desert-combo-gallery-2.webp','/images/tours/desert-combo-gallery-3.webp'],
   },
   {
@@ -413,6 +432,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Exclusive private safari for families with dedicated vehicle and guide.',
     features: ['Private 4x4', 'Dedicated Guide', 'BBQ Dinner', 'Flexible Schedule', 'All Activities'],
     image: '/images/tours/red-dunes-card.webp',
+    imageAlt: 'Red Dunes Afternoon Buggies',
     gallery: ['/images/tours/red-dunes-gallery-1.webp','/images/tours/red-dunes-gallery-2.webp','/images/tours/red-dunes-gallery-3.webp'],
   },
   {
@@ -432,6 +452,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Enhanced safari experience with premium dinner and VIP treatment.',
     features: ['Premium BBQ', 'VIP Seating', 'Enhanced Shows', 'Luxury Amenities', 'All Activities'],
     image: '/images/tours/canam-xrs-card.webp',
+    imageAlt: 'Can-Am Maverick XRS 26',
     gallery: ['/images/tours/canam-xrs-gallery-1.webp','/images/tours/canam-xrs-gallery-2.webp','/images/tours/canam-xrs-gallery-3.webp'],
   },
   {
@@ -451,6 +472,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Ultimate VIP desert experience with private luxury 4x4 and gourmet dining.',
     features: ['Luxury 4x4', 'Gourmet Dinner', 'Private Guide', 'VIP Service', 'Exclusive Camp'],
     image: '/images/tours/stage4-stunner-card.webp',
+    imageAlt: 'Stage 4 Stunner RZR PRO R Ultimate EPS',
     gallery: ['/images/tours/stage4-gallery-1.webp','/images/tours/stage4-gallery-2.webp','/images/tours/stage4-gallery-3.webp'],
   },
   {
@@ -470,6 +492,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Private morning safari with sunrise views and cool desert temperatures.',
     features: ['Sunrise Views', 'Private 4x4', 'Morning Activities', 'Breakfast', 'Dune Bashing'],
     image: '/images/tours/early-bird-card.webp',
+    imageAlt: 'Early Bird Buggy Tour Dubai',
     gallery: ['/images/tours/early-bird-gallery-1.webp','/images/tours/early-bird-gallery-2.webp','/images/tours/early-bird-gallery-3.webp'],
   },
   {
@@ -489,6 +512,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Complete package combining evening safari with quad bike adventure.',
     features: ['Quad Bike Ride', 'Dune Bashing', 'BBQ Dinner', 'Shows', 'All Activities'],
     image: '/images/quad/desert-combo-quad-card.webp',
+    imageAlt: 'Desert Combo Safari Quad Bike',
     gallery: ['/images/quad/desert-combo-quad-gallery-1.webp','/images/quad/desert-combo-quad-gallery-2.webp','/images/quad/desert-combo-quad-gallery-3.webp'],
   },
   {
@@ -508,6 +532,7 @@ export const DESERT_SAFARI_TOURS = [
     description: 'Complete package combining evening safari with dune buggy adventure.',
     features: ['Dune Buggy Ride', 'Dune Bashing', 'BBQ Dinner', 'Shows', 'All Activities'],
     image: '/images/tours/desert-combo-card.webp',
+    imageAlt: 'Desert Combo Sharing Safari Dune Buggy Dubai',
     gallery: ['/images/tours/desert-combo-gallery-1.webp','/images/tours/desert-combo-gallery-2.webp','/images/tours/desert-combo-gallery-3.webp'],
   },
 ];

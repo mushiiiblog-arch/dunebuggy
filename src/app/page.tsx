@@ -164,7 +164,7 @@ function TourPackages() {
                 <div className="relative h-52 bg-gradient-to-br from-brand-dark to-brand-dark-2 overflow-hidden">
                   <img
                     src={tour.image}
-                    alt={`${tour.name} - Dune Buggy Tour Dubai`}
+                    alt={tour.imageAlt || tour.name}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                     loading="lazy"
                     width={800}
