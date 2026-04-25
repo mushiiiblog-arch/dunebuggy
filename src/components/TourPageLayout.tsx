@@ -331,7 +331,7 @@ export default function TourPageLayout(props: TourPageProps) {
                   </Link>
                   <div className="border-t border-white/10 pt-4 space-y-2 text-xs text-white/50">
                     <div className="flex items-center gap-2"><span>✅</span> No advance payment</div>
-                    <div className="flex items-center gap-2"><span>🚐</span> Hotel transfer AED 300</div>
+                    <div className="flex items-center gap-2"><span>🚐</span> Hotel transfer AED 300 per car</div>
                     <div className="flex items-center gap-2"><span>🔄</span> Free cancellation 24hrs</div>
                     <div className="flex items-center gap-2"><span>💰</span> Pay at camp</div>
                   </div>

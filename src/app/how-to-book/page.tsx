@@ -7,7 +7,7 @@ export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
   title: "How to Book | Easy Booking Process | Buggy Dubai Rental",
-  description: "Simple 5-step booking process. No advance payment. Book via WhatsApp. Hotel transfer AED 300. Pay at camp.",
+  description: "Simple 5-step booking process. No advance payment. Book via WhatsApp. Hotel transfer AED 300 per car. Pay at camp.",
   alternates: { canonical: `${SITE.url}/how-to-book` },
 };
 

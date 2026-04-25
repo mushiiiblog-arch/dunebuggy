@@ -55,7 +55,7 @@ export default function Page() {
         "Full insurance coverage"
       ]}
       exclusions={[
-        "Hotel pickup/drop-off (available AED 300 per person)",
+        "Hotel pickup/drop-off (available AED 300 per car)",
         "BBQ dinner (optional add-on)",
         "Personal expenses and souvenirs",
         "Professional photography service (optional add-on)"
@@ -85,7 +85,7 @@ export default function Page() {
         { q: "Do I need a driving licence?", a: "No driving licence is required. Our buggies are fully automatic with comprehensive safety briefing." },
         { q: "What is the minimum age?", a: "Drivers must be 16+ years old. Passengers of any age welcome with adult supervision." },
         { q: "What should I wear?", a: "Comfortable casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended." },
-        { q: "Is hotel pickup included?", a: "Shared hotel transfer is available for AED 300 per person from anywhere in Dubai." },
+        { q: "Is hotel pickup included?", a: "Shared hotel transfer is available for AED 300 per car from anywhere in Dubai." },
         { q: "What is the cancellation policy?", a: "Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded." },
         { q: "Can I bring a camera?", a: "Yes, cameras and GoPros are welcome. Secure all devices before riding. Multiple photo stops included." }
       ]}

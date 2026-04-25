@@ -323,7 +323,7 @@ function TourHighlights() {
    ═══════════════════════════════════════════════════ */
 function OptionalAddOns() {
   const addOns = [
-    { icon: '🚐', title: 'Paid Transfer', desc: 'Shared hotel pickup & drop-off from anywhere in Dubai. AED 300 per person.' },
+    { icon: '🚐', title: 'Paid Transfer', desc: 'Shared hotel pickup & drop-off from anywhere in Dubai. AED 300 per car.' },
     { icon: '🍖', title: 'BBQ Dinner', desc: 'Authentic Arabian BBQ buffet with grilled meats, salads, bread, and desserts.' },
     { icon: '👨‍🏫', title: 'Private Guide', desc: 'Dedicated personal guide exclusively for your group throughout the tour.' },
     { icon: '📸', title: 'Professional Photos', desc: 'Professional photographer captures every thrilling moment of your adventure.' },
@@ -774,7 +774,7 @@ function HowToBookSection() {
     { n: '1', icon: '💬', title: 'Message Us on WhatsApp', desc: 'Send a quick message with your preferred tour, date, and number of guests.' },
     { n: '2', icon: '📅', title: 'Choose Tour & Time', desc: 'Pick your buggy, quad, or safari — and your preferred morning, afternoon, or night slot.' },
     { n: '3', icon: '✅', title: 'Get Instant Confirmation', desc: 'We confirm within minutes and send you pickup details and camp location.' },
-    { n: '4', icon: '🚐', title: 'We Pick You Up', desc: 'Optional hotel transfer AED 300 — we collect you from anywhere in Dubai.' },
+    { n: '4', icon: '🚐', title: 'We Pick You Up', desc: 'Optional Hotel transfer AED 300 per car — we collect you from anywhere in Dubai.' },
     { n: '5', icon: '💰', title: 'Pay at Desert Camp', desc: 'No advance payment. Pay cash or card on arrival, then enjoy your adventure.' },
   ];
 

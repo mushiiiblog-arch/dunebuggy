@@ -5,8 +5,8 @@ import { SITE } from '@/data/siteData';
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: "Shared Evening Desert Safari Dubai | AED 150 | Best Value",
-  description: "Dubai's best-value evening desert safari \u2014 share a 4WD vehicle for a complete 6-hour Arabian desert experience at just AED 150 per person.",
+  title: "Shared Evening Desert Safari Dubai | AED 150 | Best Value Safari",
+  description: "Dubai's best-value evening desert safari \u2014 shared 4WD vehicle, dune bashing, camel ride, BBQ buffet dinner, live shows. AED 150 per person. WhatsApp.",
   alternates: { canonical: `${SITE.url}/desert-safari-dubai/shared-evening-safari` },
 };
 
@@ -21,77 +21,25 @@ export default function Page() {
       seater="Sharing 4WD"
       persons="Per Person"
       difficulty="All Levels"
-      heroImage="/images/gallery/safari-1.webp"
-      galleryImages={[
-        "/images/gallery/safari-1.webp",
-        "/images/gallery/safari-2.webp",
-        "/images/gallery/safari-3.webp",
-        "/images/gallery/safari-4.webp",
-        "/images/gallery/gallery-4.webp"
-      ]}
-      highlights={[
-        "Thrilling 4x4 dune bashing across the Al Badayer Red Dunes",
-        "Traditional camel ride through the golden desert",
-        "Sandboarding down massive dune faces",
-        "Authentic Arabian BBQ buffet dinner",
-        "Live cultural entertainment: Tanoura, belly dance, fire show",
-        "Traditional Arabic welcome with coffee, dates, henna art"
-      ]}
-      overview={[
-        "The Shared Evening Desert Safari is the most popular desert experience in Dubai for good reason \u2014 it delivers everything the Arabian desert has to offer at a genuinely affordable price.",
-        "Sharing a 4WD vehicle with a small group, you embark on a 6-hour journey covering every highlight of the Dubai desert experience.",
-        "The adventure includes 4x4 dune bashing, camel riding, sandboarding, henna art, BBQ dinner, and live cultural performances under the desert stars."
-      ]}
-      inclusions={[
-        "4WD dune bashing session",
-        "Camel ride",
-        "Sandboarding",
-        "Henna art",
-        "Arabic coffee and dates welcome",
-        "Arabian BBQ buffet dinner (veg and non-veg)",
-        "Tanoura, belly dance, and fire show",
-        "Complimentary water and soft drinks",
-        "Return transport to meeting point"
-      ]}
-      exclusions={[
-        "Hotel pickup (AED 300 per person)",
-        "Alcoholic beverages",
-        "Personal expenses",
-        "Professional photography (optional add-on)"
-      ]}
-      importantInfo={[
-        "Minimum driver age is 16 years.",
-        "No driving licence required.",
-        "Not recommended for pregnant women or guests with serious back/heart conditions.",
-        "Closed-toe shoes are mandatory.",
-        "Tours run in most weather conditions."
-      ]}
+      heroImage="/images/safari/shared-evening-safari-card.webp"
+      galleryImages={["/images/safari/shared-evening-safari-card.webp", "/images/safari/shared-evening-safari-gallery-1.webp", "/images/safari/shared-evening-safari-gallery-2.webp", "/images/safari/shared-evening-safari-gallery-3.webp", "/images/safari/shared-evening-safari-gallery-4.webp", "/images/safari/shared-evening-safari-gallery-5.webp", "/images/safari/shared-evening-safari-gallery-6.webp", "/images/safari/shared-evening-safari-gallery-7.webp"]}
+      highlights={["Pickup at 14:30 from your Dubai hotel \u2014 no transport stress", "Thrilling Red Dune Bashing with professional 4WD driver (30 minutes)", "Camel ride at the desert camp (5\u201310 minutes, extendable)", "Sandboarding down towering crimson dune faces", "Henna Tattoo for ladies \u2014 authentic Arabian art", "BBQ Buffet Dinner with full vegetarian and non-vegetarian options", "Live entertainment: Fireshow, Tanoura, Belly Dancing, Yowla", "Shisha corner, complimentary water and soft drinks throughout"]}
+      overview={["The Shared Evening Desert Safari is Dubai's most popular desert experience for good reason \u2014 it delivers everything the Arabian desert has to offer at a genuinely affordable price. Pickup at 14:30 from your hotel begins your evening of authentic Arabian adventure.", "Sharing a 4WD vehicle with a small group of fellow travellers, you embark on a 6-hour journey covering every highlight of the Dubai desert. The adventure begins with heart-pounding 30-minute red dune bashing as your expert driver tackles the towering Al Badayer Red Dunes at thrilling angles, with photo stops at the highest dune.", "At the desert camp, traditional Arabic welcome with coffee and dates greets you. Activities include camel riding, sandboarding, henna art for ladies, and shisha at the camp's corner area. The evening culminates with an Arabian BBQ buffet dinner and spectacular live performances \u2014 Fireshow, Tanoura whirling dance, Belly Dancing, and traditional Yowla."]}
+      inclusions={["14:30 Pick up time", "Private Car 4WD", "Hotel Pickup and Drop-Off", "Air-conditioned vehicle for comfort", "Licensed Desert Guide", "Sand Boarding", "Red - Dune Bashing 30 minutes", "Drive to reaching the high Dune for photo stop", "Camel ride: 5-10 minutes, with option to extend freely.", "Henna Tattoo (For Ladies Only)", "Complimentary Water & Soft Drinks", "Shisha (In the corner)", "BBQ With Buffet Dinner", "Shows (Fireshow-Tanoura-Belly Dancing-Yowla)"]}
+      exclusions={["Personal expenses and souvenirs", "Alcoholic beverages", "Gratuities (optional)", "Travel insurance"]}
+      importantInfo={["Minimum age requirement: 16 years for self-drive (passengers any age with adult).", "Not recommended for pregnant women or guests with serious back/heart conditions.", "Closed-toe shoes are mandatory.", "Confirm hotel pickup details when booking via WhatsApp.", "Free cancellation up to 24 hours before the tour.", "Tours operate in most weather conditions; severe weather may result in free reschedule."]}
       whyChoose={[
-        { title: "Latest Fleet", desc: "All vehicles are recent-model, professionally maintained with certified safety equipment." },
-        { title: "Expert Guides", desc: "Licensed, first-aid certified desert guides with deep knowledge of the Al Badayer region." },
-        { title: "No Advance Payment", desc: "Reserve via WhatsApp with no upfront payment. Pay cash or card at the desert camp." },
-        { title: "Flexible Booking", desc: "Morning, afternoon, and evening departures. Change your booking up to 24 hours before." }
+        { title: "Authentic Arabian Experience", desc: "Genuine cultural authenticity from Bedouin-style hospitality to authentic food and entertainment." }, { title: "Best Value in Dubai", desc: "AED 150 covers transfer, dune bashing, camel ride, sandboarding, BBQ dinner, and shows \u2014 unbeatable price." }, { title: "Expert Desert Drivers", desc: "Licensed professionals with years of experience navigating Al Badayer terrain safely." }, { title: "All-Inclusive", desc: "Hotel transfer, all activities, dinner, and entertainment in one price. No hidden charges." }, { title: "Convenient Hotel Pickup", desc: "14:30 pickup from your Dubai hotel \u2014 no logistics, no parking, no GPS needed." }
       ]}
-      perfectFor={[
-        "Budget Travellers",
-        "Solo Adventurers",
-        "First-Time Visitors",
-        "Backpackers"
-      ]}
+      perfectFor={["Budget Travellers", "Solo Adventurers", "First-Time Dubai Visitors", "Backpackers", "Groups", "Families"]}
       faqs={[
-        { q: "Do I need a driving licence?", a: "No driving licence is required. Our buggies are fully automatic with comprehensive safety briefing." },
-        { q: "What is the minimum age?", a: "Drivers must be 16+ years old. Passengers of any age welcome with adult supervision." },
-        { q: "What should I wear?", a: "Comfortable casual clothing and closed-toe shoes (mandatory). Sunglasses and sunscreen recommended." },
-        { q: "Is hotel pickup included?", a: "Shared hotel transfer is available for AED 300 per person from anywhere in Dubai." },
-        { q: "What is the cancellation policy?", a: "Free cancellation up to 24 hours before the tour. Weather cancellations are always rescheduled or fully refunded." },
-        { q: "Can I bring a camera?", a: "Yes, cameras and GoPros are welcome. Secure all devices before riding. Multiple photo stops included." }
+        { q: "What time is pickup?", a: "14:30 (2:30 PM) from your Dubai hotel." }, { q: "What time do we return?", a: "Approximately 21:30\u201322:00 (9:30\u201310:00 PM) \u2014 drop-off at your hotel." }, { q: "Is the BBQ vegetarian-friendly?", a: "Yes \u2014 full vegetarian and non-vegetarian buffet options." }, { q: "Are alcoholic drinks available?", a: "Soft drinks, water, and Arabic coffee included. Alcoholic beverages can be purchased separately at the camp." }, { q: "Is dune bashing safe?", a: "Yes \u2014 our drivers are licensed and the 4WD vehicles have full safety equipment. Pregnant women and those with serious health conditions should not participate." }, { q: "Can children join?", a: "Yes, families with children are very welcome. Dune bashing intensity is adjustable." }
       ]}
       relatedTours={[
-        { name: "Private Evening Safari", href: "/desert-safari-dubai/private-evening-safari", price: "AED 800", image: "/images/gallery/safari-2.webp" },
-        { name: "Shared Luxury Safari", href: "/desert-safari-dubai/shared-luxury-safari", price: "AED 200", image: "/images/gallery/safari-3.webp" },
+        { name: "Private Evening Safari", href: "/desert-safari-dubai/private-evening-safari", price: "AED 800", image: "/images/safari/private-evening-safari-card.webp" },
+        { name: "Shared Luxury Safari", href: "/desert-safari-dubai/shared-luxury-safari", price: "AED 200", image: "/images/safari/shared-luxury-safari-card.webp" },
         { name: "Desert Combo Safari + Quad", href: "/quad-bike-dubai/desert-combo-safari-quad", price: "AED 199", image: "/images/quad/desert-combo-quad-card.webp" }
       ]}
-      partnerAnchor="desert safari Dubai"
     />
   );
 }

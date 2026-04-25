@@ -55,7 +55,7 @@ export default function Page() {
         "Full insurance coverage"
       ]}
       exclusions={[
-        "Hotel pickup/drop-off (available AED 300 per person)",
+        "Hotel pickup/drop-off (available AED 300 per car)",
         "BBQ dinner (optional add-on)",
         "Personal expenses and souvenirs",
         "Professional photography service (optional add-on)"

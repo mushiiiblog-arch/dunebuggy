@@ -8,11 +8,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/dune-buggy-dubai`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.95 },
     { url: `${BASE}/quad-bike-dubai`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${BASE}/desert-safari-dubai`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${BASE}/prices`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.85 },
+    { url: `${BASE}/how-to-book`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE}/about`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${BASE}/contact`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE}/faq`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${BASE}/gallery`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.6 },
-    { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${BASE}/blog`, lastModified: new Date(), changeFrequency: 'weekly' as const, priority: 0.7 },
   ];
 
   const duneBuggySubs = [
@@ -23,6 +25,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'early-bird-buggy-tour',
     'night-riders-dune-buggy-dubai',
     'red-dunes-afternoon-buggies',
+    'red-dunes-buggy-shared-transfer',
+    'morning-dune-buggy-tour',
+    'polaris-rzr-1-2-4-seater',
   ].map((slug) => ({
     url: `${BASE}/dune-buggy-dubai/${slug}`,
     lastModified: new Date(),
@@ -30,37 +35,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  const quadBikeSubs = ['morning', 'sunset', 'night', 'safari-combo'].map((slug) => ({
+  const quadBikeSubs = [
+    'yamaha-700cc-raptor',
+    'desert-combo-safari-quad',
+    'early-bird-quad-1-seater',
+    'early-bird-quad-2-seater',
+    'afternoon-quad-1-seater',
+    'afternoon-quad-2-seater',
+    'red-dunes-quad-transfer-1-seater',
+    'red-dunes-quad-transfer-2-seater',
+    'yamaha-raptor-transfer',
+  ].map((slug) => ({
     url: `${BASE}/quad-bike-dubai/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
 
-  const desertSafariSubs = ['morning', 'evening', 'overnight', 'vip-private'].map((slug) => ({
+  const desertSafariSubs = [
+    'shared-evening-safari',
+    'private-evening-safari',
+    'shared-luxury-safari',
+    'private-luxury-safari',
+  ].map((slug) => ({
     url: `${BASE}/desert-safari-dubai/${slug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
 
-  const blogPosts = [
-    'top-10-things-to-do-in-dubai-desert',
-    'dune-buggy-vs-quad-bike',
-    'best-time-for-dune-buggy-tour-dubai',
-    'what-to-wear-desert-safari-dubai',
-    'is-dune-buggy-riding-safe',
-    'can-am-maverick-vs-polaris-rzr',
-    'dubai-desert-safari-complete-guide',
-    'dune-buggy-dubai-prices-guide',
-    'morning-vs-evening-desert-safari',
-    'family-friendly-desert-activities-dubai',
-  ].map((slug) => ({
-    url: `${BASE}/blog/${slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }));
-
-  return [...mainPages, ...duneBuggySubs, ...quadBikeSubs, ...desertSafariSubs, ...blogPosts];
+  return [...mainPages, ...duneBuggySubs, ...quadBikeSubs, ...desertSafariSubs];
 }
